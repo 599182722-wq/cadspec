@@ -22,7 +22,11 @@
 
 ## 快速开始
 
-在项目目录中安装：
+**不想装 Python？** Windows 用户可以直接下
+[Releases](https://github.com/599182722-wq/cadspec/releases) 里的 `cadspec.exe`，
+双击打开，选图纸，点「检查」。不需要联网，不需要 AutoCAD。
+
+**想用命令行 / 接进自己的脚本**，在项目目录中安装：
 
 ```bash
 pip install -e ".[dev]"

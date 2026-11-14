@@ -2,6 +2,7 @@
 """知识库加载：把 data/kb/*.yaml 读成 Clause，把 data/rules/*.yaml 读成 Rule。"""
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 
 import yaml
@@ -14,9 +15,16 @@ def _resolve_data() -> Path:
     开发时（`pip install -e .`）数据在仓库根目录；正常安装时它被打包进
     `cadspec/_data/`（见 pyproject 的 force-include）。两种都要能找到，
     否则用户装完 `cadspec kb list` 会返回「共 0 条」。
+
+    第三个分支给 PyInstaller 打出来的 exe 用：打包后整个包被解到
+    `sys._MEIPASS`，data 目录按 `cadspec/_data` 放进去。
     """
     pkg = Path(__file__).resolve().parent
-    for cand in (pkg / "_data", Path(__file__).resolve().parents[2] / "data"):
+    cands = [pkg / "_data", Path(__file__).resolve().parents[2] / "data"]
+    if getattr(sys, "frozen", False):
+        base = Path(getattr(sys, "_MEIPASS", Path(sys.executable).parent))
+        cands = [base / "cadspec" / "_data", base / "_data"] + cands
+    for cand in cands:
         if (cand / "kb").is_dir():
             return cand
     raise FileNotFoundError(
