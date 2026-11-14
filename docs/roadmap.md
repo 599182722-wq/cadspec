@@ -16,6 +16,11 @@
   全图 0 个文字、墙是双线，工具在它上面只判出 2 条 error 和 0 个房间。**看起来很完整，可读性很低。**
 - **样例**：`1.dxf` 作为回归基线。
 
+**已可发布**：仓库 clone 下来能直接装能跑；`pip install .` 会把 `data/` 打进 wheel
+（`pyproject` 的 `force-include`，CI 里有一个专门 job 在别的目录跑 `kb verify` 守这条——
+漏了它就是「装完 0 条条文」的事故）；GitHub Actions 在 Windows / Linux × Python 3.10 / 3.12
+上跑测试和知识库自检。
+
 框架到这一步已经能跑通「条文 → 规则 → 检查 → 定位到 entity」的整条链路，剩下的是填内容。
 
 **几何识别的第一块地基已铺好**：`--level strict` 把墙线围成房间、从图内文字读出用途，
