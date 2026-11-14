@@ -1,0 +1,1179 @@
+standard: GB55038-2025
+standard_name: 住宅项目规范
+source_url: https://gf.cabr-fire.com/list-2369.htm
+source_note: 官方渠道（住建部公告2025年第39号，https://www.gov.cn/zhengce/zhengceku/202504/content_7016620.htm ）附件 PDF 为扫描件，26 页仅 1196 个水印字符。本条文本取自消防规范网分章全文页，条文号连续性与官方目录一致。表格为图片，已单独转录于 data/tables/gb55038-2025.yaml（表 3.1.2 日照标准、表 3.2.6 外墙至道路距离）；与平面图无关的表（设计工作年限、街坊空间指标、照明、噪声、照度、负荷等级、插座）有意未录。
+clauses:
+  - clause_id: GB55038-2025/1.0.1
+    chapter: 1 总则
+    verbatim: 为促进住宅建设高质量发展，保障居民的基本住房条件和居住环境，制定本规范。
+    interpret: 立法目的条，说明这本规范管的是住宅建设的质量和居住条件。对画图没有直接约束，但明确了适用对象是「住宅」——商住楼里的住宅部分同样适用。
+    severity_hint: info
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/1.0.2
+    chapter: 1 总则
+    verbatim: 城镇住宅项目建设、使用和维护必须执行本规范。
+    interpret: 适用范围是硬边界：城镇住宅项目的建设、使用、维护都必须执行本规范。农村住宅不在本条范围内（各地有单独规定），判断一条要求是否适用，先判断项目是不是「城镇住宅」。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/1.0.3
+    chapter: 1 总则
+    verbatim: 住宅项目建设应以安全、舒适、绿色、智慧为目标，并应遵循下列原则：1 经济合理，安全耐久；2 以人为本，健康舒适；3 因地制宜，绿色低碳；4 科技赋能，智慧便利。
+    interpret: 四个建设目标：安全舒适绿色智慧，下面四款是原则性要求。没有可量化的数字，不产生可自动检查的约束，但它是后面所有具体条文的解释背景。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/1.0.4
+    chapter: 1 总则
+    verbatim: 工程建设所采用的技术方法和措施是否符合本规范要求，由相关责任主体判定。其中，创新性的技术方法和措施，应进行论证并符合本规范中有关性能的要求。
+    interpret: 技术方法和措施是否达标由责任主体判定；创新做法要论证并满足性能要求。这条给了「不照抄条文但达到同等性能」的空间，也意味着自动检查只能对照条文，不能替设计者论证创新方案的等效性。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/1.0.5
+    chapter: 1 总则
+    verbatim: 违反本规范规定，依照有关法律法规的规定予以处罚。
+    interpret: 违反本规范的处罚依其他法律法规执行，本条本身不设罚则。对检查工具没有意义，保留是为了条文完整。
+    severity_hint: info
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.1.1
+    chapter: 2.1 规模与布局
+    verbatim: 住宅项目建设规模应根据所在地经济社会发展水平、市场需求和配套条件等，经调查研究、科学预测后合理确定。
+    interpret: 建设规模要经调查预测后确定，是规划层面的要求。没有数值，不影响单体平面图。
+    severity_hint: error
+    keywords:
+      - 规模与布局
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.1.2
+    chapter: 2.1 规模与布局
+    verbatim: 住宅项目应包括一栋或多栋住宅建筑。住宅项目较大时，应以城镇道路划分形成若干居住街坊。
+    interpret: 住宅项目可由一栋或多栋住宅建筑组成；规模较大时用城镇道路划分居住街坊。「居住街坊」是后面 3.1.1 空间环境指标的计算单元，理解这个划分才看得懂那些表。
+    severity_hint: error
+    keywords:
+      - 规模与布局
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.1.3
+    chapter: 2.1 规模与布局
+    verbatim: 住宅项目应以满足居住需求为目的，合理布局住宅建筑、工程设施及管线、场地和配套设施，并应符合下列规定：1 住宅建筑应由一个或多个供家庭居住使用的独立空间组成。2 工程设施及管线应包括给水排水系统及设备、供电系统及设备、通信和有线广播电视等智能化系统及设备、消防设施设备等；采暖地区尚应有供暖系统及设备；有燃气供应的地区尚应有燃气系统及设备。3 场地应包括道路、绿地、非机动车停车场所等。4 配套设施应包括公共管理与公共服务设施、商业服务设施、市政公用设施、交通场站设施及社区服务设施、便民服务设施等。
+    interpret: 项目由四部分构成：住宅建筑、工程设施及管线、场地（道路绿地非机动车停车）、配套设施。这是范围界定条，说明「住宅项目」不只是几栋楼，还包括室外场地和配套——画总平面时这些都要有。
+    severity_hint: error
+    keywords:
+      - 规模与布局
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.1.4
+    chapter: 2.1 规模与布局
+    verbatim: 住宅建筑应根据所在地区气候、地质及地形地貌等自然条件，因地制宜、合理布局。
+    interpret: 布局要结合气候、地质、地形。定性要求，落到图上体现为朝向、间距、台地处理，具体数值在 3.1、3.2 各条。
+    severity_hint: error
+    keywords:
+      - 规模与布局
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.1
+    chapter: 2.2 建设要求
+    verbatim: 住宅项目不应在有滑坡、泥石流、山洪、地震断裂带等自然灾害威胁的地段选址建设，且与危险化学品、易燃易爆品等危险源的距离应符合有关安全规定。
+    interpret: 选址红线：不得在有滑坡、泥石流、山洪、地震断裂带等灾害威胁的地段建设，且与危化品、易燃易爆危险源的距离要符合安全规定。距离的具体数值不在本规范里，要看其他专项标准，本规范只给原则。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.2
+    chapter: 2.2 建设要求
+    verbatim: 住宅项目建设应合理、有效利用土地和空间。
+    interpret: 合理有效利用土地和空间。定性要求，没有数值。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.3
+    chapter: 2.2 建设要求
+    verbatim: 住宅项目应满足无障碍设计原则。
+    interpret: 住宅项目应满足无障碍设计原则。这是原则条，具体尺寸在 GB 55019 无障碍规范里，两本要合起来看。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.4
+    chapter: 2.2 建设要求
+    verbatim: 住宅项目中的园林小品、围墙等附属设施应采取防坍塌、防坠落、防风揭等安全措施。
+    interpret: 园林小品、围墙等附属设施要防坍塌、防坠落、防风揭。属构造安全要求，平面图上体现为附属设施的位置，构造做法看详图。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.5
+    chapter: 2.2 建设要求
+    verbatim: 住宅建筑应按套型设计，每套住宅应有卧室、起居室、厨房和卫生间等基本功能空间。
+    interpret: 按套型设计，每套必须有卧室、起居室、厨房、卫生间四个基本空间。这是「一套住宅合不合格」的最低配置，画户型图时缺任何一个都是硬伤；具体面积下限在 4.1.1、4.1.4、4.1.6。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.6
+    chapter: 2.2 建设要求
+    verbatim: 住宅建筑的设计工作年限应符合表2.2.6的规定，在规定设计工作年限内应满足安全性、适用性和耐久性要求。
+    interpret: 设计工作年限应符合表 2.2.6（该表属结构设计参数，与平面图无关，本仓库未转录）。本条约束的是结构设计使用年限，画图时通过设计说明体现，不在平面图上。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.7
+    chapter: 2.2 建设要求
+    verbatim: 住宅建筑应满足居住所需的通风、日照、采光、隔声、防水、防潮、保温、隔热等性能要求。
+    interpret: 住宅应满足通风、日照、采光、隔声、防水、防潮、保温、隔热八项性能。这是把所有性能要求汇总的一条，每一项的数值分散在第 3 章（日照）、第 6 章（声光热）和 4.1.9（防水）。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.8
+    chapter: 2.2 建设要求
+    verbatim: 住宅建筑及其设备应能有效利用能源和水资源。
+    interpret: 有效利用能源和水资源。定性要求，落到图上体现为设备选型与管井位置，不产生几何约束。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.9
+    chapter: 2.2 建设要求
+    verbatim: 住宅建筑外窗、外墙装饰、外墙外保温系统及其他附属设施等应安装牢固，不应脱落、坠落。
+    interpret: 外窗、外墙装饰、外保温系统及附属设施应安装牢固，不应脱落坠落。这是近年事故倒逼出来的条文，平立面图上体现为外挂构件的位置与固定方式，构造要求看节点。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.10
+    chapter: 2.2 建设要求
+    verbatim: 住宅建筑应提供保证人员安全疏散的设施与条件。
+    interpret: 应提供保证人员安全疏散的设施与条件。这是原则条，具体数值在 GB 55037 第 7 章（疏散出口数量、疏散净宽）与 4.2.2（楼梯）。住宅的疏散判定要以 55037 为准，本条只是宣示。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.11
+    chapter: 2.2 建设要求
+    verbatim: 住宅建筑应具有防止火灾蔓延的措施，并应在火灾时维持结构的稳定性。
+    interpret: 应有防止火灾蔓延的措施，并在火灾时维持结构稳定。对应 GB 55037 第 4 章（防火分区、防火间距）与第 6 章（防火构造），本条不另给数值。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.12
+    chapter: 2.2 建设要求
+    verbatim: 住宅建筑应具备与建筑高度相适应的灭火救援条件。
+    interpret: 应具备与建筑高度相适应的灭火救援条件。高层住宅的消防车道、登高操作场地在 GB 55037 第 3 章，本条是衔接条。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.2.13
+    chapter: 2.2 建设要求
+    verbatim: 装配式住宅建筑的结构构件和部件部品应符合通用性要求。
+    interpret: 装配式住宅的结构构件和部品要符合通用性要求。约束的是构件标准化，与平面图的关系是轴网要尽量规整、构件类型要收敛。
+    severity_hint: error
+    keywords:
+      - 建设要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.3.1
+    chapter: 2.3 使用要求
+    verbatim: 住宅项目配套建设的公共设施的使用功能不应擅自改变。
+    interpret: 配套设施的使用功能不得擅自改变。这是使用维护阶段的要求，施工图阶段要保证配套用房的位置和面积不被后续挪用。
+    severity_hint: error
+    keywords:
+      - 使用要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.3.2
+    chapter: 2.3 使用要求
+    verbatim: 住宅建筑的公共门厅、公共走廊、公共楼梯间、屋面等公共部位不应擅自拆改或占用。
+    interpret: 公共门厅、公共走廊、公共楼梯间、屋面等公共部位不得擅自拆改或占用。这条在审图时对应「有没有把公共走廊划进套内」这类问题——平面图上套内轮廓与公共轮廓必须分明。
+    severity_hint: error
+    keywords:
+      - 使用要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.3.3
+    chapter: 2.3 使用要求
+    verbatim: 住宅建筑承重结构、主要使用功能和建筑外观不应擅自改动。
+    interpret: 承重结构、主要使用功能、建筑外观不得擅自改动。使用阶段约束，施工图上体现为功能分区要明确。
+    severity_hint: error
+    keywords:
+      - 使用要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.3.4
+    chapter: 2.3 使用要求
+    verbatim: 住宅建筑抗震构件、隔震沟、隔震缝、隔震减震装置及标识不应擅自变动、损坏或者拆除。
+    interpret: 抗震构件、隔震沟、隔震缝、隔震减震装置及标识不得擅自变动损坏拆除。含隔震设计的项目，平面图上要标出隔震缝位置和宽度。
+    severity_hint: error
+    keywords:
+      - 使用要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.3.5
+    chapter: 2.3 使用要求
+    verbatim: 住宅项目公共用途的给水排水、供暖、燃气、供电、通信等设施不应擅自拆改。
+    interpret: 公共用途的给水排水、供暖、燃气、供电、通信设施不得擅自拆改。与 4.2.10（管线应设在公共空间）配套理解：管线本来就在公共部位，所以拆改会影响全楼。
+    severity_hint: error
+    keywords:
+      - 使用要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.3.6
+    chapter: 2.3 使用要求
+    verbatim: 住宅项目的公共空间和场地、公共设备和设施应定期进行维护、检修和管理，并应保证公共设备和设施正常运行。
+    interpret: 公共空间、场地、设备和设施要定期维护检修并保证正常运行。运维要求，不属于设计约束。
+    severity_hint: error
+    keywords:
+      - 使用要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.3.7
+    chapter: 2.3 使用要求
+    verbatim: 住宅项目消防设施应保持完好有效，疏散通道、消防车通道应保持畅通。
+    interpret: 消防设施应保持完好有效，疏散通道和消防车通道应保持畅通。运维条，设计阶段对应的是消防车道和疏散通道的宽度、转弯半径是否满足。
+    severity_hint: error
+    keywords:
+      - 使用要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/2.3.8
+    chapter: 2.3 使用要求
+    verbatim: 住宅建筑楼面或屋面上不应堆放影响结构安全的重物。
+    interpret: 楼面或屋面不得堆放影响结构安全的重物。使用约束，设计上对应楼面荷载取值，平面图不体现。
+    severity_hint: error
+    keywords:
+      - 使用要求
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.1.1
+    chapter: 3.1 空间环境
+    verbatim: 住宅项目应为居民提供宜居的居住生活环境，其居住街坊的空间环境控制指标应符合表3.1.1-1的规定。当住宅建筑采用低层或多层高密度布局方式时，其居住街坊的空间环境控制指标应符合表3.1.1-2的规定。
+    interpret: 居住街坊的空间环境控制指标应符合表 3.1.1-1；采用低层或多层高密度布局时符合表 3.1.1-2。这两张表给的是容积率、建筑密度、绿地率、人口密度一类的控制指标，属规划指标，与单体平面图无关，本仓库未转录。判断某个项目该用哪张表，取决于布局方式是高密度还是常规。
+    severity_hint: error
+    keywords:
+      - 空间环境
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.1.2
+    chapter: 3.1 空间环境
+    verbatim: 住宅建筑间距应按表3.1.2规定的日照标准进行控制。旧区改建项目内新建住宅建筑日照标准不应低于大寒日日照时数1h。
+    interpret: 住宅建筑间距按表 3.1.2 的日照标准控制（该表已转录，见 data/tables/gb55038-2025.yaml）。先查气候区和常住人口规模确定标准日与日照时数，再据此定间距。旧区改建项目单列一条底线：新建住宅的日照标准不低于大寒日 1h。这条是总平面退距的核心依据，单体平面图画不出间距，要总平面图加上日照分析。
+    severity_hint: error
+    keywords:
+      - 空间环境
+      - 1h
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.2.1
+    chapter: 3.2 场地
+    verbatim: 住宅项目的场地应保障安全，并应符合下列规定：1 存在噪声污染、光污染的地段，应采取相应防护措施，并应达到居住用地声环境和光环境质量要求；2 存在土壤污染的地段，应采取有效措施进行无害化处理，并应达到居住用地土壤环境质量要求；3 场地设计应满足应急疏散要求。
+    interpret: 场地安全三条：有噪声光污染的地段要防护并达标；有土壤污染的要无害化处理；场地设计要满足应急疏散。「应急疏散」在总平面上体现为出口数量和通道宽度，具体参考 GB 55037 第 3 章。
+    severity_hint: error
+    keywords:
+      - 场地
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.2.2
+    chapter: 3.2 场地
+    verbatim: 居住街坊内应设集中绿地，并应符合下列规定：1 新区建设项目人均集中绿地面积不应小于0.50㎡，旧区改建项目人均集中绿地面积不应小于0.35㎡；2 集中绿地宽度不应小于8m；3 集中绿地中，在标准的建筑日照阴影线范围之外的绿地面积占比不应小于1／3，并应设老年人和儿童活动场地。
+    interpret: 集中绿地：新区人均不小于 0.50㎡，旧区改建不小于 0.35㎡；宽度不小于 8m；日照阴影线之外的绿地占比不小于 1/3，并设老人和儿童活动场地。四个条件里「宽度 8m」最容易在总平面上被忽略，绿地面积够但被拉成细长条就不合格。
+    severity_hint: error
+    keywords:
+      - 场地
+      - 0.50㎡
+      - 0.35㎡
+      - 8m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.2.3
+    chapter: 3.2 场地
+    verbatim: 住宅项目应配建附属道路，并应符合下列规定：1 应与城镇道路系统联通，并应满足急救、消防及运输车辆的通行要求；2 应与住宅项目场地步行出入口、住宅单元出入口、老年人和儿童活动场地无障碍联通，并应与城镇道路的人行道联通形成无障碍步行系统；3 步行路面应符合防滑要求。
+    interpret: 附属道路：要与城镇道路联通并满足急救消防运输通行；要与步行出入口、单元出入口、活动场地无障碍联通，并与城镇人行道联成无障碍步行系统；步行路面要防滑。这是三类联通性要求，画总平面时容易只画了车行道，漏掉无障碍步行路径的连续性。
+    severity_hint: error
+    keywords:
+      - 场地
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.2.4
+    chapter: 3.2 场地
+    verbatim: 住宅项目场地的自然坡度大于8.0％时，应采用台地式布局方式，并应符合下列规定：1 台地之间应设护坡或挡土墙等支挡结构；2 高度大于2.0m的护坡或挡土墙的上缘与高台地上建筑物的水平净距不应小于3.0m，其下缘与低台地上建筑物的水平净距不应小于2.0m。
+    interpret: 场地自然坡度大于 8.0% 时采用台地式布局：台地之间设护坡或挡土墙；高度大于 2.0m 的支挡结构，上缘与高台地建筑的水平净距不小于 3.0m，下缘与低台地建筑不小于 2.0m。两个净距方向不同，上缘对应高台一侧、下缘对应低台一侧，画剖面时不要对调。
+    severity_hint: error
+    keywords:
+      - 场地
+      - 2.0m
+      - 3.0m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.2.5
+    chapter: 3.2 场地
+    verbatim: 住宅项目场地竖向设计应有利于雨水径流的控制和雨水的资源化利用，并应满足防洪排涝的要求。场地地面排水设计坡度不应小于0.2％。
+    interpret: 竖向设计要有利于雨水径流控制和资源化利用，满足防洪排涝；地面排水坡度不小于 0.2%。0.2% 是最小平坡，总平面图上要标排水方向，否则无法判断。
+    severity_hint: error
+    keywords:
+      - 场地
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.2.6
+    chapter: 3.2 场地
+    verbatim: 住宅建筑高度大于10m时，外墙面至道路边缘的最小距离，应符合表3.2.6的规定。
+    interpret: 建筑高度大于 10m 时，外墙面至道路边缘的最小距离按表 3.2.6（该表已转录）。区分城镇道路与附属道路，两者的「边缘」定义不同：城镇道路算到道路红线，附属道路算到路面边线。分「无公共出入口 3.0/2.0」「有公共出入口 5.0/2.5」「山墙面向道路 2.0/1.5」三行，按建筑立面朝向与道路的关系选行。
+    severity_hint: error
+    keywords:
+      - 场地
+      - 10m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.2.7
+    chapter: 3.2 场地
+    verbatim: 住宅项目室外公共区域夜间照明照度值和一般显色指数不应低于表3.2.7规定的限值。
+    interpret: 室外公共区域夜间照明的照度值和一般显色指数不应低于表 3.2.7（照明参数表，与平面图无关，未转录）。
+    severity_hint: error
+    keywords:
+      - 场地
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.3.1
+    chapter: 3.3 配套设施
+    verbatim: 住宅项目的配套设施应根据居住人口规模和设施服务半径综合确定，并应按所在居住区分级配置标准统筹配套、同步建设。
+    interpret: 配套设施按人口规模和服务半径确定，按居住区分级配置标准统筹配套、同步建设。这是配置原则，具体项目清单依地方标准。
+    severity_hint: error
+    keywords:
+      - 配套设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.3.2
+    chapter: 3.3 配套设施
+    verbatim: 住宅项目应设生活垃圾收集点，并应符合下列规定：1 应满足垃圾分类收集需求；2 应设置便于识别的标志；3 厨余垃圾收集容器应具备封闭功能。
+    interpret: 应设生活垃圾收集点：满足分类收集、有便于识别的标志、厨余垃圾容器具备封闭功能。总平面上要能看出收集点的位置，且封闭要求意味着不宜设在住宅窗户正下方。
+    severity_hint: error
+    keywords:
+      - 配套设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/3.3.3
+    chapter: 3.3 配套设施
+    verbatim: 住宅项目应设快递箱（柜）或预留安装条件。
+    interpret: 应设快递箱（柜）或预留安装条件。总平面或首层平面上的一个小设施，容易整条漏掉。
+    severity_hint: error
+    keywords:
+      - 配套设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.1
+    chapter: 4.1 套内空间
+    verbatim: 卧室的使用面积应符合下列规定：1 卧室使用面积不应小于5㎡；2 兼起居室的卧室使用面积不应小于9㎡;3 卧室短边净宽不应小于1.80m。
+    interpret: 卧室使用面积不小于5㎡，兼起居室的卧室不小于9㎡，且卧室短边净宽不小于1.80m。前两个数是面积，第三个数是形状——一间6㎡但短边只有1.5m的卧室同样不合格。图上要能量出净尺寸，不能靠估算面积。
+    severity_hint: error
+    machine:
+      checkable: full
+    keywords:
+      - 套内空间
+      - 5㎡
+      - 9㎡
+      - 1.80m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.2
+    chapter: 4.1 套内空间
+    verbatim: 新建住宅建筑的层高和室内净高应符合下列规定：1 层高不应低于3.00m；2 卧室、起居室的室内净高不应低于2.60m，局部净高不应低于2.20m，且局部净高低于2.60m的面积不应大于室内使用面积的1/3;3 利用坡屋顶内空间作卧室、起居室时，室内净高不低于2.20m的使用面积不应小于室内使用面积的1/2；4 厨房、卫生间的室内净高不应低于2.20m。
+    interpret: 层高不应低于3.00m，卧室起居室净高不应低于2.60m，局部净高不低于2.20m且低于2.60m的部分不超过室内使用面积的1/3；坡屋顶作卧室起居室时，净高不低于2.20m的面积不少于1/2；厨房卫生间净高不低于2.20m。层高是这一版新规最硬的一条，比旧版住宅规范高。平面图上看不出层高与净高，要剖面图或门窗表之外的标高标注才能核。
+    severity_hint: error
+    keywords:
+      - 套内空间
+      - 1层
+      - 3.00m
+      - 2.60m
+      - 2.20m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.3
+    chapter: 4.1 套内空间
+    verbatim: 卧室、起居室和厨房不应布置在地下室。当布置在半地下室时，应合理布置，采取必要的通风、防潮、排水及安全防护等措施。
+    interpret: 卧室、起居室和厨房不应布置在地下室；布置在半地下室时要采取通风、防潮、排水和安全防护措施。这是功能房间的竖向位置约束，平面图上要靠楼层归属和标高判断，单看一张平面图分不出地上地下，需要楼层表或标高配合。
+    severity_hint: error
+    keywords:
+      - 套内空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.4
+    chapter: 4.1 套内空间
+    verbatim: 厨房的使用面积不应小于3.5㎡。
+    interpret: 厨房使用面积不应小于3.5㎡。使用面积按净尺寸算，不含墙体。画图时厨房常常是先定橱柜再挤面积，容易卡在这个数以下。
+    severity_hint: error
+    machine:
+      checkable: full
+    keywords:
+      - 套内空间
+      - 3.5㎡
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.5
+    chapter: 4.1 套内空间
+    verbatim: 厨房应配置洗涤池、水龙头、案台、灶具、排油烟机等设施或预留安装位置。
+    interpret: 厨房应配置洗涤池、水龙头、案台、灶具、排油烟机，或预留安装位置。这是设施清单，不是尺寸要求；平面图上体现为设备图例或预留位置标注，缺哪一件要能看出来。
+    severity_hint: error
+    keywords:
+      - 套内空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.6
+    chapter: 4.1 套内空间
+    verbatim: 每套住宅的卫生间应至少配置便器、洗浴器、洗面器三件卫生器具或预留安装位置及条件。布置便器的卫生间的门不应直接开在厨房内。便器、洗浴器和洗面器集中配置的卫生间的使用面积不应小于2.5㎡。
+    interpret: 每套住宅卫生间至少配置便器、洗浴器、洗面器三件，或预留位置及条件；布置便器的卫生间门不应直接开在厨房内；三件集中配置的卫生间使用面积不小于2.5㎡。两条是不同性质的约束：一条管门开向，能在平面上直接看出来；一条管面积，要量净尺寸。
+    severity_hint: error
+    keywords:
+      - 套内空间
+      - 2.5㎡
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+    machine:
+      checkable: partial
+      note: >-
+        2.5m² 那一款可以判，只要房间标了「卫生间」；但条文的前提是
+        「三件集中配置」，分开布置的不受这个数约束，图上分不出来，所以按宽松假设判。
+        「门不应直接开在厨房内」需要判断门的两个邻接房间，geometry 的 neighbors
+        能给到房间对，但无法确认门扇开向，暂不判。
+  - clause_id: GB55038-2025/4.1.7
+    chapter: 4.1 套内空间
+    verbatim: 卫生间不应直接布置在其他住户的卧室、起居室、厨房或餐厅的上层。
+    interpret: 卫生间不应直接布置在其他住户的卧室、起居室、厨房或餐厅的上层。这是上下层对位约束，单张平面图画不出来，要把上下两层叠起来看；图上有楼层时，同位置上下对照即可判断。
+    severity_hint: error
+    keywords:
+      - 套内空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.8
+    chapter: 4.1 套内空间
+    verbatim: 卫生间的设置应符合下列规定：1 多层套型中，布置有起居室或卧室的楼层至少应设1间配有便器和洗面器或预留安装位置及条件的卫生间；2 卫生间便器和洗浴器旁应设扶手或预留安装条件；3 当卫生间门向内开启时，应预留向外开启或推拉开启的空间条件。
+    interpret: 多层套型中，凡有起居室或卧室的楼层，至少设1间带便器和洗面器的卫生间；便器和洗浴器旁应设扶手或预留安装条件；卫生间门向内开时应预留向外开或推拉开的空间条件。第三款最容易被忽略——门往里开本身不错，但门扇后方要留出能改成外开或推拉的位置。
+    severity_hint: error
+    keywords:
+      - 套内空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.9
+    chapter: 4.1 套内空间
+    verbatim: 卫生间防水和防潮应符合下列规定：1 卫生间地面应设防水层和地漏，且应有坡向地漏的排水坡，排水坡度不应小于1％；2 卫生间淋浴区墙面防水层高度不应小于2.00m，且不低于淋浴喷淋口高度，剩余墙面和顶棚应做防潮层或采取防潮措施；3 洗面器处墙面防水层高度不应小于1.20m；4 除本条第2、3款外的卫生间其他部位墙面，地面防水的泛水翻起高度不应小于0.25m。
+    interpret: 卫生间地面设防水层和地漏，排水坡度不小于1%；淋浴区墙面防水层高度不小于2.00m 且不低于喷淋口；洗面器处墙面不小于1.20m；其他部位泛水翻起不小于0.25m。四个高度值分别对应地面、淋浴墙、洗手台墙、其余墙，画详图时按部位取，不能一律取 1.20m。
+    severity_hint: error
+    keywords:
+      - 套内空间
+      - 2.00m
+      - 1.20m
+      - 0.25m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.10
+    chapter: 4.1 套内空间
+    verbatim: 卫生间地面应采用防滑铺装，地面静摩擦系数（COF）不应小于0.6。
+    interpret: 卫生间地面应采用防滑铺装，静摩擦系数不小于0.6。这是材料指标，平面图上只能通过地面做法或材料表体现，几何检查管不到。
+    severity_hint: error
+    keywords:
+      - 套内空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.11
+    chapter: 4.1 套内空间
+    verbatim: 每套住宅应设放置洗衣机的位置，并应配置洗衣机的给水排水设施及其他使用条件。
+    interpret: 每套住宅应设放置洗衣机的位置，并配置给水排水设施。平面上表现为一个预留位加两个接口，缺位置或缺水点都算不合规。
+    severity_hint: error
+    keywords:
+      - 套内空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.12
+    chapter: 4.1 套内空间
+    verbatim: 厨房、卫生间、封闭阳台与相邻空间地面的高差不应大于0.015m，并应以斜坡过渡；户门的门槛高度和户门内外高差均不应大于0.015m。
+    interpret: 厨房、卫生间、封闭阳台与相邻空间的地面高差不应大于0.015m，并应以斜坡过渡；户门门槛高度和户门内外高差均不应大于0.015m。这条把「无高差」写成了具体毫米数。卫生间通常要降板做防水，降多了就违反本条——1.5cm 是很紧的上限。
+    severity_hint: error
+    keywords:
+      - 套内空间
+      - 0.015m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.13
+    chapter: 4.1 套内空间
+    verbatim: 套内入口过道净宽不应小于1.10m；通往卧室、起居室的过道净宽不应小于1.00m；通往厨房、卫生间、贮藏室的过道净宽不应小于0.90m。
+    interpret: 套内过道净宽分三档：套内入口过道不小于1.10m，通往卧室起居室不小于1.00m，通往厨房卫生间贮藏室不小于0.90m。先判断这条过道通往哪，再取数；同样宽的走道，只因为端头是卫生间就可以窄 10cm。
+    severity_hint: error
+    keywords:
+      - 套内空间
+      - 1.10m
+      - 1.00m
+      - 0.90m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.14
+    chapter: 4.1 套内空间
+    verbatim: 新建住宅建筑户门通行净宽不应小于0.90m，既有住宅建筑改造户门通行净宽不应小于0.80m。卧室门的通行净宽不应小于0.80m，厨房门和卫生间门的通行净宽不应小于0.70m，并应预留无障碍改造的条件。
+    interpret: 门通行净宽：新建户门不小于0.90m，既有住宅改造户门不小于0.80m；卧室门不小于0.80m；厨房门和卫生间门不小于0.70m，并应预留无障碍改造条件。注意「通行净宽」指门扇开启后的净开口，不是门洞宽，也不是门框宽——画图时按门洞宽标注会系统性偏大。
+    severity_hint: error
+    machine:
+      checkable: partial
+    keywords:
+      - 套内空间
+      - 0.90m
+      - 0.80m
+      - 0.70m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.15
+    chapter: 4.1 套内空间
+    verbatim: 设有阳台时，应符合下列规定：1 阳台栏杆净高不应低于1.20m，栏杆的竖向杆件间净距不应大于0.11m，阳台栏杆应采取防止攀登的措施；2 阳台栏杆有放置物品或花盆的设施时，应采取防止物品或花盆坠落的措施；3 开敞式阳台应采取有组织排水并采取防水措施；4 放置洗衣机的阳台地面应采取有组织排水并设置防水层；5 各套住宅之间毗连的阳台应设分户隔板。
+    interpret: 有阳台时：栏杆净高不低于1.20m，竖向杆件净距不大于0.11m，并采取防攀登措施；有放物设施的要防坠物；开敞阳台要有组织排水并防水；放洗衣机的阳台地面要有组织排水和防水层；各套之间毗连的阳台设分户隔板。栏杆高度从可踏面起算，阳台上有花池或翻边时起点会上移。
+    severity_hint: error
+    keywords:
+      - 套内空间
+      - 1.20m
+      - 0.11m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.16
+    chapter: 4.1 套内空间
+    verbatim: 临空外窗的窗台距室内地面的净高小于0.90m时，应配置防护设施，防护设施的高度应由室内地面或可登踏面起算，且不应小于0.90m。当凸窗窗台高度小于或等于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.90m；当凸窗窗台高度大于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.60m；凸窗的防护设施应贴外窗设置。
+    interpret: 临空外窗窗台距室内地面净高小于0.90m 时设防护设施，防护高度从室内地面或可踏面起算不小于0.90m。凸窗另有一套：窗台高度不大于0.45m 时，防护从窗台面起算不小于0.90m；大于0.45m 时，从窗台面起算不小于0.60m。凸窗的防护设施要贴外窗设置，不能退到墙内侧。
+    severity_hint: error
+    keywords:
+      - 套内空间
+      - 0.90m
+      - 0.45m
+      - 0.60m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.1.17
+    chapter: 4.1 套内空间
+    verbatim: 当住宅建筑凹口的净宽与净深之比小于1：3且净宽小于1.20m时，卧室和起居室的外窗不应设置在凹口内。
+    interpret: 凹口净宽与净深之比小于1:3 且净宽小于1.20m 时，卧室和起居室的外窗不应设置在凹口内。这是采光通风的约束，画平面时凹口尺寸往往随手定，两个条件同时满足才违规，容易漏判。
+    severity_hint: error
+    keywords:
+      - 套内空间
+      - 1.20m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.1
+    chapter: 4.2 公共空间
+    verbatim: 设有公共走廊时，应符合下列规定：1 走廊净宽不应小于1.20m，净高不应低于2.20m；2 当设置封闭外廊时，应设可开启的窗扇。
+    interpret: 公共走廊净宽不应小于1.20m，净高不应低于2.20m；设封闭外廊时应设可开启窗扇。净宽要在扣除保温层、抹灰、管道后的完成面之间量，不是轴线间距。
+    severity_hint: error
+    keywords:
+      - 公共空间
+      - 1.20m
+      - 2.20m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.2
+    chapter: 4.2 公共空间
+    verbatim: 公共楼梯的设置应符合下列规定：1 当最高入户层楼面距室外设计地面的高度不超过15m时，公共楼梯一边设有栏杆的，其梯段净宽不应小于1.00m；公共楼梯两侧均为墙体的，其梯段净宽不应小于1.10m。当最高入户层楼面距室外设计地面的高度超过15m时，公共楼梯的梯段净宽不应小于1.10m。2 公共楼梯踏步宽度不应小于0.26m，踏步高度不应大于0.175m，且同一个楼梯梯段踏步的宽度、高度均应一致；每个梯段的首步和末步踏步均应设明显标志。3 楼梯扶手高度不应小于0.90m；当楼梯水平段栏杆长度大于0.50m时，其水平段扶手高度不应小于1.20m；楼梯栏杆竖向杆件间净距不应大于0.11m。4 楼梯井净宽大于0.11m时，必须采取防止人员坠落和儿童攀登的措施。
+    interpret: 住宅公共楼梯：梯段净宽按最高入户层楼面距室外地面高度分档——不超过15m 时，单侧栏杆取1.00m、两侧墙体取1.10m；超过15m 一律1.10m。踏步宽不小于0.26m、高不大于0.175m，同梯段内必须一致，首末步设明显标志。扶手高不小于0.90m，水平段栏杆长度大于0.50m 时扶手高不小于1.20m，竖杆净距不大于0.11m。楼梯井净宽大于0.11m 时必须防坠落防攀登。这些数值与 GB 55031 表 5.3.9 的住宅楼梯一行一致，两本规范在这里是同一个要求。
+    severity_hint: error
+    keywords:
+      - 公共空间
+      - 15m
+      - 1.00m
+      - 1.10m
+      - 0.26m
+      - 0.175m
+      - 0.90m
+      - 0.50m
+      - 1.20m
+      - 0.11m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.3
+    chapter: 4.2 公共空间
+    verbatim: 电梯井道及电梯机房、水泵机房等产生噪声或振动的房间不应紧邻卧室布置。
+    interpret: 电梯井道、电梯机房、水泵机房等产生噪声或振动的房间不应紧邻卧室布置。这是平面上的相邻关系约束，图上能看出房间之间隔了什么是关键——中间只隔一道墙就算紧邻。
+    severity_hint: error
+    keywords:
+      - 公共空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.4
+    chapter: 4.2 公共空间
+    verbatim: 新建住宅建筑电梯设置应符合下列规定：1 最高入户层为四层及四层以上，或最高入户层楼面距室外设计地面高度超过9m的住宅建筑，每个住宅单元应至少设置1台电梯。2 最高入户层为十二层及十二层以上，或最高入户层楼面距室外设计地面高度超过33m的住宅建筑，每个住宅单元应至少设置2台电梯。3 设有电梯的住宅单元，应至少有1台电梯满足下列尺寸要求：轿厢门净宽不应小于0.90m；采用宽轿厢时，轿厢长边尺寸不应小于1.60m，短边尺寸不应小于1.50m，采用深轿厢时，轿厢宽度不应小于1.10m，深度不应小于2.10m。4 电梯紧急呼叫按钮的中心距地面高度应为0.85m～1.10m。
+    interpret: 电梯设置：最高入户层为4层及以上，或楼面距室外地面超过9m，每单元至少1台；12层及以上，或超过33m，每单元至少2台。有电梯的单元至少1台满足：轿厢门净宽不小于0.90m；宽轿厢长边不小于1.60m、短边不小于1.50m；深轿厢宽不小于1.10m、深不小于2.10m。紧急呼叫按钮中心距地0.85m～1.10m。层数与高度两个条件是「或」的关系，取先满足的那个。
+    severity_hint: error
+    keywords:
+      - 公共空间
+      - 9m
+      - 33m
+      - 0.90m
+      - 1.60m
+      - 1.50m
+      - 1.10m
+      - 2.10m
+      - 0.85m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.5
+    chapter: 4.2 公共空间
+    verbatim: 既有住宅建筑加装电梯，不应影响建筑结构安全性和正常使用功能。加装电梯的载重量不应小于320kg，轿厢门净宽不应小于0.80m。
+    interpret: 既有住宅加装电梯不应影响结构安全和正常使用；加装电梯载重量不小于320kg，轿厢门净宽不小于0.80m。这一条的门宽比新建的0.90m 松，因为受既有楼梯间尺寸限制，改造项目按本条判。
+    severity_hint: error
+    keywords:
+      - 公共空间
+      - 320kg
+      - 0.80m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.6
+    chapter: 4.2 公共空间
+    verbatim: 电梯井应独立设置，且不应敷设与电梯无关的电缆、电线等。电梯井井壁上除开设电梯门洞、检修门洞和通气孔洞外，不应开设其他洞口。
+    interpret: 电梯井应独立设置，不得敷设与电梯无关的电缆电线；井壁除电梯门洞、检修门洞、通气孔洞外不得开其他洞口。图上表现为井道轮廓里除了这三个洞没有别的穿越。
+    severity_hint: error
+    keywords:
+      - 公共空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.7
+    chapter: 4.2 公共空间
+    verbatim: 公共出入口设置应符合下列规定：1 每个住宅单元至少应有1个无障碍公共出入口。2 公共出入口的外门通行净宽不应小于1.10m。当外门为双扇门时，至少应有1扇门的通行净宽不小于0.80m。3 除平坡出入口外，公共出入口平台的净深度（从门扇开启时的最远点至平台边缘的距离）不应小于1.50m。4 公共出入口位于阳台、外廊及开敞楼梯平台的下部时，应采取防止坠物伤害的安全措施。公共出入口上方应设雨篷，雨篷的宽度不应小于门洞的宽度，雨篷的挑出长度应超过门扇开启时的最远点，且不应小于1.00m。5 当公共出入口台阶总高度超过0.70m且侧面临空时，台阶和平台的临空侧面应设防护设施，且防护设施净高不应低于1.20m。
+    interpret: 公共出入口：每个住宅单元至少1个无障碍出入口；外门通行净宽不小于1.10m，双扇门时至少1扇不小于0.80m；平台净深（门扇开启最远点至平台边缘）不小于1.50m；位于阳台、外廊、开敞楼梯平台下部时防坠物，上方设雨篷且宽度不小于门洞宽、挑出不小于1.00m；台阶总高超过0.70m 且侧面临空时，临空侧防护净高不低于1.20m。平台净深从门扇最远点量起，不是从门框量起，这一条是画图时最常算错的。
+    severity_hint: error
+    keywords:
+      - 公共空间
+      - 1个
+      - 1.10m
+      - 0.80m
+      - 1.50m
+      - 1.00m
+      - 0.70m
+      - 1.20m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.8
+    chapter: 4.2 公共空间
+    verbatim: 外廊、室内回廊、内天井、室外楼梯及上人屋面等临空处应设防护栏杆，且应符合下列规定：1 栏杆净高不应低于1.20m；2 栏杆应有防止攀登和物品坠落的措施，栏杆竖向杆件间的净距不应大于0.11m。
+    interpret: 外廊、室内回廊、内天井、室外楼梯及上人屋面的临空处设防护栏杆，净高不低于1.20m，竖杆间净距不大于0.11m，并有防攀登和防坠物措施。与套内阳台栏杆是同一个高度要求，只是适用部位不同。
+    severity_hint: error
+    keywords:
+      - 公共空间
+      - 1.20m
+      - 0.11m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.9
+    chapter: 4.2 公共空间
+    verbatim: 公共出入口内外、公共走廊、公共楼梯、电梯厅等处的地面应采用防滑铺装，地面静摩擦系数（COF）不应小于0.6。
+    interpret: 公共出入口内外、公共走廊、公共楼梯、电梯厅的地面采用防滑铺装，静摩擦系数不小于0.6。属材料要求，靠地面做法表体现。
+    severity_hint: error
+    keywords:
+      - 公共空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.10
+    chapter: 4.2 公共空间
+    verbatim: 下列设备设施应设置在住宅建筑公共空间内：1 给水总立管、消防立管、雨水立管（不包括设置在开敞式阳台的雨水立管）、供暖（空调）供回水总立管、配电和弱电干线（管）等；2 公共管道阀门（必须设在套内的燃气引入管阀门除外）、电气设备及用于总体调节和检修的部件（套内排水立管检修口除外）；3 室内供暖管沟和电缆沟的检查孔。
+    interpret: 给水总立管、消防立管、雨水立管、供暖空调供回水总立管、配电和弱电干线等应设在公共空间；公共管道阀门、电气设备及总体调节检修部件也应设在公共空间（必须设在套内的燃气引入管阀门、套内排水立管检修口除外）；室内供暖管沟和电缆沟的检查孔同样。这是「管线不得进套内」的硬约束，画平面时立管位置要落在公共部位。
+    severity_hint: error
+    keywords:
+      - 公共空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.11
+    chapter: 4.2 公共空间
+    verbatim: 住宅建筑的电缆井、管道井应在每层楼板处严密封堵。
+    interpret: 电缆井、管道井应在每层楼板处严密封堵。属于防火封堵要求（与 GB 55037 第 6.3 节一致），平面图上表现为井道位置，封堵做法要看节点详图。
+    severity_hint: error
+    keywords:
+      - 公共空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.12
+    chapter: 4.2 公共空间
+    verbatim: 当住宅建筑采用分体式空调时，室外机位置和安装应符合下列规定：1 应设置方便室外机安装和维护操作的可上人专用平台板或预留空间，专用平台板与主体建筑结构的连接应进行结构设计，且设计工作年限与主体结构相同。2 室外机位置应保障通风通畅，不应设置在建筑天井等通风不良的位置，且不应对室外人员和相邻窗口造成不利影响。当室外机位设置围护的格栅或墙体时，不应妨碍空调有效散热。3 室外机应采用坐式安装方式，且室外机底座应与专用平台板（架）连接牢固，并应采取防止坠落的措施。
+    interpret: 分体空调室外机：设可上人专用平台板或预留空间，平台板与主体结构连接并做结构设计；位置要通风通畅，不得设在天井等通风不良处，不得影响室外人员和相邻窗口；采用坐式安装，底座与平台板连接牢固并防坠落。图上要能看出室外机位有可落脚的操作空间，不是只画一个方框。
+    severity_hint: error
+    keywords:
+      - 公共空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/4.2.13
+    chapter: 4.2 公共空间
+    verbatim: 新建住宅建筑采用太阳能热水系统、光伏系统时，应统一规划、同步设计、同步施工，且太阳能热水系统、光伏系统的设置应符合下列规定：1 应与建筑主体结构连接牢固；2 应采取防水、密封和排水构造措施；3 不应破坏住宅建筑防水层及附属设施。
+    interpret: 采用太阳能热水系统、光伏系统时应统一规划、同步设计、同步施工；应与主体结构连接牢固，采取防水密封排水措施，不得破坏防水层及附属设施。这条约束的是设计与施工的时序和构造，平面图上体现为预留位置与预埋件。
+    severity_hint: error
+    keywords:
+      - 公共空间
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/5.0.1
+    chapter: 5 结构
+    verbatim: 住宅建筑结构的安全等级不应低于二级。
+    interpret: 结构安全等级不低于二级。属结构设计参数，平面图上不体现；二级对应建筑物破坏后果严重，住宅按此取值是行业惯例。
+    severity_hint: error
+    keywords:
+      - 结构
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/5.0.2
+    chapter: 5 结构
+    verbatim: 住宅建筑的抗震设防类别不应低于标准设防类。
+    interpret: 抗震设防类别不低于标准设防类。结构参数，与平面布局的关系是抗震缝、结构体系的选择，画图时体现为轴线与结构构件布置。
+    severity_hint: error
+    keywords:
+      - 结构
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/5.0.3
+    chapter: 5 结构
+    verbatim: 住宅建筑结构应进行承载力极限状态、正常使用极限状态和耐久性设计，并应符合住宅建造过程的安全性要求以及结构设计工作年限内的可靠性要求。
+    interpret: 结构应做承载力极限状态、正常使用极限状态和耐久性设计，并满足建造过程安全与设计年限内可靠性。三个极限状态是结构设计的总纲，不产生图纸上的几何约束。
+    severity_hint: error
+    keywords:
+      - 结构
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/5.0.4
+    chapter: 5 结构
+    verbatim: 新建住宅建筑的钢筋混凝土结构实心楼板厚度不应小于100mm。
+    interpret: 新建住宅钢筋混凝土实心楼板厚度不小于100mm。楼板厚度要在剖面图和结构图上看，平面图上看不到；但它是住宅舒适度（楼板隔声、刚度）的底线，与 6.1.2 的撞击声要求配套。
+    severity_hint: error
+    keywords:
+      - 结构
+      - 100mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/5.0.5
+    chapter: 5 结构
+    verbatim: 临近住宅建筑的永久性边坡的设计工作年限，不应低于受其影响的住宅建筑的结构设计工作年限。
+    interpret: 临近住宅的永久性边坡，设计工作年限不低于受其影响的住宅结构设计工作年限。总平面图上要标出边坡位置与住宅的距离关系，边坡设计由岩土专业完成。
+    severity_hint: error
+    keywords:
+      - 结构
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/5.0.6
+    chapter: 5 结构
+    verbatim: 在住宅建筑设计工作年限内，地基基础应满足承载力、稳定性和耐久性要求；地基基础变形不应影响住宅建筑结构安全和正常使用。
+    interpret: 地基基础在设计年限内满足承载力、稳定性和耐久性，变形不影响结构安全和正常使用。属勘察设计内容，不产生平面几何约束。
+    severity_hint: error
+    keywords:
+      - 结构
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/6.1.1
+    chapter: 6.1 声环境
+    verbatim: 住宅建筑内电梯、水泵、变压器等共用设施设备及空调室外机或新风机组传播至卧室、起居室内的建筑设备结构噪声，不应大于表6.1.1规定的限值。
+    interpret: 电梯、水泵、变压器等共用设备及空调室外机、新风机组传到卧室起居室的建筑设备结构噪声不应大于表 6.1.1（限值表，属设备噪声参数，与平面图无关，未转录）。对画图的约束在 4.2.3：产生噪声振动的房间不应紧邻卧室。
+    severity_hint: error
+    keywords:
+      - 声环境
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/6.1.2
+    chapter: 6.1 声环境
+    verbatim: 住宅卧室、起居室与相邻房间之间墙、楼板的隔声性能应符合下列规定：1 卧室分户墙及分户楼板两侧房间之间的计权标准化声压级差与粉红噪声频谱修正量之和(DnT,w+C)不应小于50dB；其他分户墙及分户楼板两侧房间之间的计权标准化声压级差与粉红噪声频谱修正量之 和(DnT,w+C)不应小于48dB。2 卧室、起居室楼板的计权标准化撞击声压级不应大于65dB。
+    interpret: 卧室分户墙及分户楼板的 DnT,w+C 不小于50dB，其他分户墙及楼板不小于48dB；卧室起居室楼板的计权标准化撞击声压级不大于65dB。数值属构造与材料要求，平面图上体现为分户墙的位置和厚度，隔声性能靠墙体和楼板做法保证。
+    severity_hint: error
+    keywords:
+      - 声环境
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/6.1.3
+    chapter: 6.1 声环境
+    verbatim: 住宅外墙、外门窗空气声隔声性能应符合下列规定：1 住宅外墙的计权隔声量与交通噪声频谱修正量之和(Rw+Ctr)不应小于45dB。2 临街住宅建筑朝交通干线侧卧室外门窗的计权隔声量与交通噪声频谱修正量之和(Rw+Ctr)不应小于35dB；其他外门窗的计权隔声量与交通噪声频谱修正量之和(Rw+Ctr)不应小于30dB。
+    interpret: 外墙 Rw+Ctr 不小于45dB；临街住宅朝交通干线侧卧室外门窗不小于35dB，其他外门窗不小于30dB。临街与否直接改变外窗指标，画图时要在总平面上标出哪一侧朝交通干线，否则选窗没有依据。
+    severity_hint: error
+    keywords:
+      - 声环境
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/6.1.4
+    chapter: 6.1 声环境
+    verbatim: 与卧室相邻的卫生间内，排水立管不应贴邻与卧室共用的墙体，且应采取隔声包覆处理措施。上层卫生间排水时，在卧室内测得的排水噪声等效声级不应大于33dB。
+    interpret: 与卧室相邻的卫生间，排水立管不应贴邻与卧室共用的墙体，并做隔声包覆；上层卫生间排水时卧室内排水噪声等效声级不大于33dB。平面图上要能看出排水立管的位置——立管贴着卧室墙就是违规，这是可以靠位置判定的少数声学条文。
+    severity_hint: error
+    keywords:
+      - 声环境
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/6.2.1
+    chapter: 6.2 光环境
+    verbatim: 每套住宅应至少有一个卧室或起居室能满足日照标准。
+    interpret: 每套住宅至少有一个卧室或起居室满足日照标准。与 3.1.2 的表配套：标准定了，还要保证至少一间房真的达到。判断要靠日照分析软件，不是靠平面图目测，但平面图上要能看到朝向和遮挡关系。
+    severity_hint: error
+    keywords:
+      - 光环境
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/6.2.2
+    chapter: 6.2 光环境
+    verbatim: 每套住宅卧室、起居室、厨房均应有直接采光。
+    interpret: 卧室、起居室、厨房均应有直接采光。「直接」意味着不能靠借光——厨房开向走廊的窗、卧室透过阳台采光，都不算直接采光。这条能在平面图上判：看这三个房间外墙有没有开窗。
+    severity_hint: error
+    keywords:
+      - 光环境
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/6.2.3
+    chapter: 6.2 光环境
+    verbatim: 住宅建筑公共区域的照度和一般显色指数不应低于表6.2.3规定的标准值。
+    interpret: 公共区域照度和一般显色指数不低于表 6.2.3（照明参数表，与平面图无关，未转录）。
+    severity_hint: error
+    keywords:
+      - 光环境
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/6.3.1
+    chapter: 6.3 热环境
+    verbatim: 供暖住宅建筑的屋面、外墙、地面、与室外空气直接接触的楼面等的内表面在室内温、湿度设计条件下不应出现表面结露。
+    interpret: 供暖住宅的屋面、外墙、地面、与室外空气接触的楼板内表面不应出现表面结露。属热工计算要求，平面图不体现，靠保温构造设计实现。
+    severity_hint: error
+    keywords:
+      - 热环境
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/6.3.2
+    chapter: 6.3 热环境
+    verbatim: 夏季自然通风情况下，夏热冬暖、夏热冬冷和寒冷B区住宅建筑的外墙、屋面的内表面温度不应高于室外空气温度的最高值。
+    interpret: 夏热冬暖、夏热冬冷和寒冷B区，夏季自然通风条件下外墙、屋面内表面温度不高于室外空气最高温度。热工要求，与建筑气候区划绑定，画图时体现为保温做法选用。
+    severity_hint: error
+    keywords:
+      - 热环境
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/6.3.3
+    chapter: 6.3 热环境
+    verbatim: 每套住宅的自然通风开口面积不应小于地面面积的5％。卧室、起居室、厨房应能自然通风，并应符合下列规定：1 卧室、起居室的直接自然通风开口面积不应小于该房间地面面积的5％；当房间外设置阳台时，阳台的自然通风开口面积不应小于房间和阳台地面面积总和的5％。2 厨房的自然通风开口面积不应小于该房间地面面积的10％，且不应小于0.60㎡；当厨房外设置阳台时，阳台的自然通风开口面积不应小于厨房和阳台地面面积总和的10％，且不应小于0.60㎡。
+    interpret: 每套住宅自然通风开口面积不小于地面面积的5%；卧室起居室不小于该房间地面面积的5%，设阳台时按房间加阳台的总面积算；厨房不小于10%且不小于0.60㎡，设阳台时按厨房加阳台总面积10%且不小于0.60㎡。这条完全可以在平面图上算：窗的开启扇面积除以房间地面面积。注意分母是「地面面积」不是「建筑面积」，阳台要并入。
+    severity_hint: error
+    keywords:
+      - 热环境
+      - 0.60㎡
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.1.1
+    chapter: 7.1 给水排水
+    verbatim: 住宅应设给水排水系统。
+    interpret: 住宅应设给水排水系统。总纲条，无具体数值。
+    severity_hint: error
+    keywords:
+      - 给水排水
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.1.2
+    chapter: 7.1 给水排水
+    verbatim: 住宅套内分户用水点的给水压力不应小于0.1MPa。
+    interpret: 套内分户用水点的给水压力不小于0.1MPa。水力计算要求，平面图不体现，但水压不足往往是因为立管位置或管径，与平面布置有关。
+    severity_hint: error
+    keywords:
+      - 给水排水
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.1.3
+    chapter: 7.1 给水排水
+    verbatim: 住宅建筑用水应分类、分户计量，水表设置位置应便于管理、安装、使用和检修。
+    interpret: 用水应分类、分户计量，水表位置便于管理安装使用检修。平面图上水表要落在便于读表的位置，通常在管井或公共部位。
+    severity_hint: error
+    keywords:
+      - 给水排水
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.1.4
+    chapter: 7.1 给水排水
+    verbatim: 住宅应设生活热水系统或预留安装户式热水器的位置和管道。
+    interpret: 应设生活热水系统或预留户式热水器位置和管道。平面图上要有热水器位置和对应的冷热水接口，只画了冷水点算漏。
+    severity_hint: error
+    keywords:
+      - 给水排水
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.1.5
+    chapter: 7.1 给水排水
+    verbatim: 厨房和卫生间的排水立管应分别设置。
+    interpret: 厨房和卫生间的排水立管应分别设置。平面上看立管数量：厨卫合用一个立管就是违规。
+    severity_hint: error
+    keywords:
+      - 给水排水
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.1.6
+    chapter: 7.1 给水排水
+    verbatim: 排水管道不应穿越卧室。
+    interpret: 排水管道不应穿越卧室。这条能在平面图上直接判——看排水立管与横管的走向是否经过卧室。卧室上方做夹层走管同样算穿越。
+    severity_hint: error
+    keywords:
+      - 给水排水
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.1.7
+    chapter: 7.1 给水排水
+    verbatim: 设置淋浴器或洗衣机的部位应设地漏或排水设施，其水封深度不应小于50mm。构造内无存水弯的卫生器具及无水封的地漏与生活排水管道连接时，在排水口以下应设存水弯，其水封深度不得小于50mm。
+    interpret: 设淋浴器或洗衣机的部位设地漏或排水设施，水封深度不小于50mm；无存水弯的器具与排水管连接时排水口以下设存水弯，水封深度不小于50mm。50mm 是防臭防虫的底线，画详图时标注。
+    severity_hint: error
+    keywords:
+      - 给水排水
+      - 50mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.1.8
+    chapter: 7.1 给水排水
+    verbatim: 生活污、废水不应排入雨水排水系统。
+    interpret: 生活污废水不应排入雨水系统。雨污分流要求，总平面管线上要分开，图上体现为两套管线和检查井。
+    severity_hint: error
+    keywords:
+      - 给水排水
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.1.9
+    chapter: 7.1 给水排水
+    verbatim: 住宅室内地面标高低于排水管接入的室外排水检查井井盖标高时，其卫生器具和地漏的排水应采用压力排水系统，并应采取防止倒灌的措施。
+    interpret: 室内地面标高低于室外排水检查井井盖标高时，卫生器具和地漏排水应采用压力排水系统并防倒灌。地下室卫生间、下沉式卫生间要特别注意，标高关系在剖面图上核。
+    severity_hint: error
+    keywords:
+      - 给水排水
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.2.1
+    chapter: 7.2 供暖、通风与空调
+    verbatim: 严寒和寒冷地区的住宅建筑应设供暖设施。夏热冬冷地区的住宅建筑应设供暖、空调设施或预留安装位置。夏热冬暖地区的住宅建筑应设空调设施或预留安装位置。
+    interpret: 严寒和寒冷地区应设供暖；夏热冬冷地区应设供暖空调或预留位置；夏热冬暖地区应设空调或预留位置。按气候区划分档，平面图上体现为设备平台和管井的预留。
+    severity_hint: error
+    keywords:
+      - 供暖、通风与空调
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.2.2
+    chapter: 7.2 供暖、通风与空调
+    verbatim: 住宅建筑采用集中供暖系统时，卧室、起居室和卫生间冬季室内供暖计算温度不应低于18℃，厨房冬季室内供暖计算温度不应低于15℃。
+    interpret: 集中供暖时，卧室起居室卫生间冬季供暖计算温度不低于18℃，厨房不低于15℃。热工参数，与平面图的关系是散热器位置和房间围护结构。
+    severity_hint: error
+    keywords:
+      - 供暖、通风与空调
+      - 18℃
+      - 15℃
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.2.3
+    chapter: 7.2 供暖、通风与空调
+    verbatim: 住宅建筑采用集中供暖系统时，应采用热水作为热媒，并应采取可靠的水质保证措施。
+    interpret: 集中供暖应采用热水作热媒，并采取水质保证措施。系统选型要求，平面图不体现。
+    severity_hint: error
+    keywords:
+      - 供暖、通风与空调
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.2.4
+    chapter: 7.2 供暖、通风与空调
+    verbatim: 住宅建筑设有供暖系统时，应具有室内温度调节功能。
+    interpret: 设有供暖系统时应具有室内温度调节功能。即每个房间或每组散热器要能单独调，平面图上体现为温控阀或分集水器的位置。
+    severity_hint: error
+    keywords:
+      - 供暖、通风与空调
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.2.5
+    chapter: 7.2 供暖、通风与空调
+    verbatim: 供暖系统不应有冻结危险，并应采取热膨胀补偿措施。
+    interpret: 供暖系统不应有冻结危险，并采取热膨胀补偿措施。系统设计细节，平面图上体现为管道走向与保温，不产生几何约束。
+    severity_hint: error
+    keywords:
+      - 供暖、通风与空调
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.2.6
+    chapter: 7.2 供暖、通风与空调
+    verbatim: 无外窗的暗卫生间应设防止回流的机械通风设施。
+    interpret: 无外窗的暗卫生间应设防止回流的机械通风设施。这条能在平面图上判：没有外窗的卫生间必须画排风。暗卫是常见户型，容易漏排风道。
+    severity_hint: error
+    keywords:
+      - 供暖、通风与空调
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.2.7
+    chapter: 7.2 供暖、通风与空调
+    verbatim: 厨房设置排烟道时，应采取防止支管回流和竖井泄漏的措施。
+    interpret: 厨房设排烟道时，应采取防止支管回流和竖井泄漏的措施。平面图上体现为烟道位置和止逆阀，系统做法看详图。
+    severity_hint: error
+    keywords:
+      - 供暖、通风与空调
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.2.8
+    chapter: 7.2 供暖、通风与空调
+    verbatim: 室内空调设备的冷凝水应有组织排放。应设冷凝水排放立管及其与主要房间的接口。冷凝水管不应出现倒坡。
+    interpret: 室内空调设备冷凝水应有组织排放，设冷凝水立管及与主要房间的接口，冷凝水管不应倒坡。平面上要有冷凝水立管位置和坡度方向，只画了空调位没画排水点是常见漏项。
+    severity_hint: error
+    keywords:
+      - 供暖、通风与空调
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.3.1
+    chapter: 7.3 燃气
+    verbatim: 住宅建筑燃气管道及设施应符合下列规定：1 燃气供气能力应满足所设燃具在正常工况下同时工作的要求；2 燃气管道及设施的设置应满足安全要求，并应根据住宅结构合理布置；3 燃气管道及设施不应设置在卧室，以及电梯井、通风道、排气道、暖气沟的竖井或沟槽内。
+    interpret: 燃气管道及设施应满足供气能力、安全布置要求，且不应设置在卧室，以及电梯井、通风道、排气道、暖气沟的竖井或沟槽内。可以在平面图上判：燃气管的走向不允许经过卧室，也不允许借用竖井。
+    severity_hint: error
+    keywords:
+      - 燃气
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.3.2
+    chapter: 7.3 燃气
+    verbatim: 住宅建筑采用管道供气方式时，应按每套住宅分别计量。燃气表的设置应便于使用、检修和保养，并应满足安全要求。
+    interpret: 管道供气时按每套分别计量，燃气表位置便于使用检修保养并满足安全要求。平面图上燃气表位置通常在厨房或管井，要有可读表操作的空间。
+    severity_hint: error
+    keywords:
+      - 燃气
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.3.3
+    chapter: 7.3 燃气
+    verbatim: 设置燃具的房间应符合下列规定：1 房间室内净高不应低于2.20m，且不应与卧室、兼起居室的卧室等直接连通；2 房间自然通风或强制通风，应满足燃气燃烧所需的空气量；3 与燃具贴邻的墙体、地面、台面等应为不燃材料，安装燃气热水器或燃气采暖热水炉的墙面或地面应能承受其荷载。
+    interpret: 设燃具的房间：室内净高不低于2.20m，且不应与卧室、兼起居室的卧室等直接连通；自然或强制通风满足燃烧所需空气量；与燃具贴邻的墙体地面台面为不燃材料，安装燃气热水器的墙面地面能承受其荷载。两个条件最硬：净高2.20m 和「不与卧室直接连通」——厨房开向卧室的门就是违规，这在平面图上一目了然。
+    severity_hint: error
+    keywords:
+      - 燃气
+      - 2.20m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.3.4
+    chapter: 7.3 燃气
+    verbatim: 使用燃气的住宅应设燃具的排烟及排气装置，并应符合下列规定：1 应能将燃气燃烧产生的烟气全部排至室外；2 排烟及排气装置应有防倒烟措施，多台燃具的共用烟道应有防串烟措施；3 排烟及排气管不应穿过卧室；4 排烟口应设在烟气容易扩散的室外开放空间，且烟气不应回流至住宅建筑内或窜入相邻建筑物内；5 不应有因破损、连接不紧密等导致的漏烟现象；6 燃气灶不应与燃气热水器、燃气采暖热水炉共用排烟及排气装置。
+    interpret: 使用燃气的住宅应设燃具排烟排气装置：烟气全部排至室外；有防倒烟措施，多台燃具共用烟道有防串烟措施；排烟排气管不穿过卧室；排烟口设在易扩散的室外开放空间且不回流；不应漏烟；燃气灶不得与燃气热水器、燃气采暖炉共用排烟装置。最后一条是常错点——灶和热水器共用一个烟道不行。
+    severity_hint: error
+    keywords:
+      - 燃气
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.4.1
+    chapter: 7.4 电气
+    verbatim: 住宅建筑应设供配电系统，并应按用电负荷等级供电。住宅建筑主要用电负荷等级不应低于表7.4.1的规定。
+    interpret: 住宅应设供配电系统并按负荷等级供电，主要用电负荷等级不低于表 7.4.1（负荷分级表，与平面图无关，未转录）。
+    severity_hint: error
+    keywords:
+      - 电气
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.4.2
+    chapter: 7.4 电气
+    verbatim: 每套住宅应设电能表。电能表的设置位置应便于管理、安装、使用和检修。
+    interpret: 每套住宅应设电能表，位置便于管理安装使用检修。平面图上电表通常在公共部位或管井。
+    severity_hint: error
+    keywords:
+      - 电气
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.4.3
+    chapter: 7.4 电气
+    verbatim: 每套住宅应设家居配电箱，并应符合下列规定：1 家居配电箱应设同时断开相线和中性线且具有隔离功能的电源进线开关电器；电源配电回路应设短路和过负荷保护电器；电源插座回路均应加设剩余电流动作值不大于30mA的剩余电流动作保护电器。2 保护电器单排布置的家居配电箱底边距离地面高度不应小于1.80m，保护电器双排布置的家居配电箱底边距离地面高度不应小于1.60m，家居配电箱的安装位置应便于使用和维修维护。3 家居配电箱的进出电源线应选用铜材质导体，电源进线的横截面面积不应小于10m㎡。
+    interpret: 家居配电箱：进线开关能同时断开相线和中性线并具隔离功能，插座回路加剩余电流动作保护（不大于30mA）；单排布置箱底距地不小于1.80m，双排不小于1.60m；进出线用铜导体，进线截面不小于10mm²。高度那两个数属于可在图注中核对的内容，容易在装修图里被改低。
+    severity_hint: error
+    keywords:
+      - 电气
+      - 30m
+      - 1.80m
+      - 1.60m
+      - 10m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.4.4
+    chapter: 7.4 电气
+    verbatim: 住宅照明回路、空调电源插座回路、电热水器等2kW及以上的用电设备回路、厨房内的电源插座回路、其他功能用房的电源插座回路应分别设置。
+    interpret: 照明回路、空调插座回路、2kW 及以上设备回路、厨房插座回路、其他功能用房插座回路应分别设置。回路划分要求，平面图上体现为配电箱出线回路数与标注，图例里能看出是否分开。
+    severity_hint: error
+    keywords:
+      - 电气
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.4.5
+    chapter: 7.4 电气
+    verbatim: 住宅的电源插座均应采用安全型插座，卫生间设置的电源插座尚应加设防止水溅的措施。每套住宅电源插座的设置要求和数量应符合表7.4.5的规定，布置洗衣机、冰箱、排油烟机、排风机、电/燃气热水器、空调器处，尚应加设1个专用单相三孔电源插座。
+    interpret: 电源插座均采用安全型，卫生间插座加防溅措施；每套插座数量和设置要求符合表 7.4.5（数量表，与平面图无关，未转录）；洗衣机、冰箱、排油烟机、排风机、热水器、空调处各加设1个专用单相三孔插座。最后一句是可以在平面图上数的：这六个位置各要有一个专用插座。
+    severity_hint: error
+    keywords:
+      - 电气
+      - 1个
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.4.6
+    chapter: 7.4 电气
+    verbatim: 年预计雷击次数大于0.25的住宅建筑应按不低于第二类防雷建筑物采取相应的防雷措施。其他可能发生地闪地区的住宅建筑，应按不低于第三类防雷建筑物采取相应的防雷措施。
+    interpret: 年预计雷击次数大于0.25 的住宅按不低于第二类防雷建筑物设防；其他可能发生地闪地区按不低于第三类。防雷分类要求，平面图上体现为接闪带和引下线位置，计算依据是年雷击次数。
+    severity_hint: error
+    keywords:
+      - 电气
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.4.7
+    chapter: 7.4 电气
+    verbatim: 进出住宅建筑的金属管道应与住宅建筑接地装置做等电位联结。装有固定浴盆或淋浴器的卫生间应设等电位联结作为附加防护。
+    interpret: 进出住宅的金属管道应与接地装置做等电位联结；装有固定浴盆或淋浴器的卫生间应设等电位联结作为附加防护。卫生间等电位是安全底线，平面图上要标出局部等电位端子箱位置。
+    severity_hint: error
+    keywords:
+      - 电气
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.5.1
+    chapter: 7.5 智能化
+    verbatim: 住宅建筑应设通信系统。在公用电信网络已实现光纤传输的地区，住宅建筑的通信设施应采用光缆到户方式。
+    interpret: 住宅应设通信系统；公用电信网已实现光纤传输的地区应采用光缆到户。平面图上体现为弱电管井和入户光缆路由。
+    severity_hint: error
+    keywords:
+      - 智能化
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.5.2
+    chapter: 7.5 智能化
+    verbatim: 公共移动通信信号应能覆盖至住宅建筑的公共空间和电梯轿厢内。
+    interpret: 公共移动通信信号应覆盖住宅公共空间和电梯轿厢内。覆盖要求，与平面图的关系是室内分布系统的天线位置，通常在公共部位和电梯井道。
+    severity_hint: error
+    keywords:
+      - 智能化
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.5.3
+    chapter: 7.5 智能化
+    verbatim: 住宅建筑应设有线电视系统。有线电视设施应采用光缆或同轴电缆以独立专线方式建设。
+    interpret: 住宅应设有线电视系统，采用光缆或同轴电缆以独立专线方式建设。平面图上体现为弱电管井与入户路由，与通信系统分开敷设。
+    severity_hint: error
+    keywords:
+      - 智能化
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.5.4
+    chapter: 7.5 智能化
+    verbatim: 新建住宅项目的智能化系统设备用房和室外地下智能化系统管道应与住宅项目同步建设。
+    interpret: 新建住宅项目的智能化系统设备用房和室外地下管道应与项目同步建设。总平面上要有弱电设备用房和地下管道的定位，不能等主体完工再补。
+    severity_hint: error
+    keywords:
+      - 智能化
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.5.5
+    chapter: 7.5 智能化
+    verbatim: 每套住宅应设家居配线箱，并应符合下列规定：1 家居配线箱的进线管不应少于2根，有源家居配线箱应设供电电源；2 起居室或兼起居室的卧室应设通信系统信息端口和有线电视系统信息端口；3 家居配线箱的出线管应敷设到通信系统信息端口和有线电视系统信息端口。
+    interpret: 每套住宅应设家居配线箱：进线管不少于2根，有源箱设电源；起居室或兼起居室的卧室设通信和有线电视信息端口；出线管敷设到各信息端口。平面图上配线箱位置和各房间信息点要能一一对应。
+    severity_hint: error
+    keywords:
+      - 智能化
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm
+  - clause_id: GB55038-2025/7.5.6
+    chapter: 7.5 智能化
+    verbatim: 住宅建筑疏散通道上和出入口处的门禁应具备紧急情况下就地从内部手动解除的功能。
+    interpret: 疏散通道上和出入口处的门禁应具备紧急情况下就地从内部手动解除的功能。这条直接影响疏散安全，平面图上体现为门禁位置；与 GB 55037 第 7 章的疏散要求配套，门禁不能成为疏散障碍。
+    severity_hint: error
+    keywords:
+      - 智能化
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-2369.htm

@@ -1,0 +1,278 @@
+# GB/T 50001-2017《房屋建筑制图统一标准》条文卡
+#
+# 字段约定：
+#   clause_id    标准号/条号，全局唯一，Rule.cite 指回这里
+#   verbatim     条文原文摘录（只摘与可判定规则相关的句子，非全文）
+#   interpret    人话解读：这条到底在管什么、常见的错法是什么
+#   machine      机器可读约束。审查器只读这个字段，不解析 verbatim
+#   severity_hint 由用词反推：应/必须/不得 -> error；宜/不宜 -> warning
+#
+# 注意：本文件是结构化摘录，不是标准全文。完整条文请查官方出版版本。
+
+standard: GB/T 50001-2017
+standard_name: 房屋建筑制图统一标准
+status: effective
+effective_from: "2018-02-01"
+source_url: https://gf.cabr-fire.com/m/list-1658.htm
+source_note: >-
+  条文文字转录自中国建筑科学研究院建筑防火研究所"消防规范网"分章全文（第三方转载），
+  已与住建部公告的现行版本号核对。表 4.0.1、表 5.0.2、附录 B 等为图片，本库未收录具体数值。
+  商用或正式审图请以中国建筑工业出版社正式出版版本为准。
+
+clauses:
+  - clause_id: GBT50001-2017/4.0.1
+    chapter: "4 图线"
+    verbatim: |
+      图线的宽度 b，宜按《房屋建筑制图统一标准》表 4.0.1 的规定选用。
+      每个图样应先根据形体的复杂程度和比例的大小，确定基本线宽 b。
+      b 值可从下列线宽系列中选取：1.4、1.0、0.7、0.5mm。
+    interpret: |
+      基本线宽 b 只在这四个值里选，取消了旧版允许的 0.35/0.25/0.18/0.13。
+      条文说明特别强调"图线线宽均指打印成品图纸的线宽"——所以 CAD 里图层线宽
+      应当直接填打印线宽（0.5/0.7/1.0/1.4），而不是按模型空间 1:1 放大 100 倍。
+      常见错法：图层线宽全部留 DEFAULT(-3)，靠打印样式表(CTB)映射；
+      或者按颜色硬编码笔宽，换打印机就全乱。
+    keywords: [线宽, 基本线宽, b值, 打印线宽, 图层线宽, lineweight]
+    severity_hint: warning
+    machine:
+      checkable: partial
+      basic_width_series_mm: [0.5, 0.7, 1.0, 1.4]
+      printed_width_only: true
+      note: 同一张图内相同比例的各图样应选用相同线宽组（§4.0.3）
+
+  - clause_id: GBT50001-2017/4.0.3
+    chapter: "4 图线"
+    verbatim: |
+      同一张图纸内，相同比例的各图样，应选用相同的线宽组。
+    interpret: |
+      "应"是强制。同一张 A3 上如果 1:100 的平面图和 1:100 的剖面图并存，
+      两边的粗线必须一样粗。实务上表现为：图层线宽设置要成套，不能东一个 0.5 西一个 0.3。
+    keywords: [线宽组, 同比例, 一致性]
+    severity_hint: error
+    machine:
+      checkable: partial
+      same_scale_same_width_group: true
+
+  - clause_id: GBT50001-2017/5.0.7
+    chapter: "5 字体"
+    verbatim: |
+      字母及数字的字高，不应小于 2.5mm。
+    interpret: |
+      "不应"是强制（禁止性）。关键在"2.5mm"是打印成品图纸上的高度，不是模型空间高度。
+      1:100 出图时，模型里字高必须 ≥250mm；1:50 时必须 ≥125mm。
+      常见错法：模型里写 200 高的标高数字，1:100 打出来只有 2.0mm，肉眼勉强、按标准不合规。
+      注意本条只管"字母及数字"；汉字的字高由表 5.0.2 按图幅和比例查，本库暂未收录该表。
+    keywords: [字高, 文字高度, 2.5mm, 打印字高, text height]
+    severity_hint: error
+    machine:
+      checkable: full
+      min_text_height_mm: 2.5
+      applies_to: letters_and_digits
+      measured_on: printed_sheet
+
+  - clause_id: GBT50001-2017/8.0.1
+    chapter: "8 定位轴线"
+    verbatim: |
+      定位轴线应用细单点长画线绘制，线宽宜为 0.25b。
+    interpret: |
+      轴线必须是"单点长画线"（点划线），且线宽是基本线宽 b 的 0.25 倍。
+      如果 b 取 1.0，轴线就该是 0.25mm——这是 CAD 里少见的非整数值，很多模板直接给 0.09 或 DEFAULT。
+      常见错法：轴线用 Continuous 实线画；或者线型比例(LTSCALE)没调，点划线打成实线。
+    keywords: [定位轴线, 点划线, 单点长画线, 0.25b, 线型]
+    severity_hint: warning
+    machine:
+      checkable: partial
+      linetype: center_or_dashdot
+      linewidth_factor_of_b: 0.25
+
+  - clause_id: GBT50001-2017/8.0.2
+    chapter: "8 定位轴线"
+    verbatim: |
+      轴线编号应注写在轴线端部的圆内。圆应用细实线绘制，直径为 8mm～10mm。
+      定位轴线圆的圆心，应在定位轴线的延长线或延长线的折线上。
+      圆及编号的线宽宜为 0.25b。
+    interpret: |
+      轴号圆圈是"图纸上的 8~10mm"，不是模型里的 8~10mm。1:100 出图时模型半径得画 400~500。
+      这是最容易被比例搞错的一条：很多人在模型空间按 8mm 画圆，1:100 打出来只有 0.08mm，几乎看不见。
+      常见错法：圆直径随手给 800（=8mm@1:100 的直径，正确）或 400（=4mm，偏小）。
+    keywords: [轴号, 圆圈, 直径, 8mm, 10mm, 定位轴线圆]
+    severity_hint: warning
+    machine:
+      checkable: full
+      circle_diameter_mm: [8, 10]
+      measured_on: printed_sheet
+      circle_linewidth_factor_of_b: 0.25
+
+  - clause_id: GBT50001-2017/8.0.3
+    chapter: "8 定位轴线"
+    verbatim: |
+      平面图上定位轴线的编号，宜标注在图样的下方与左侧。
+      横向编号应用阿拉伯数字，从左至右顺序编写；竖向编号应用大写拉丁字母，从下至上顺序编写。
+    interpret: |
+      "宜"是推荐，四面都标也允许（实践中最常见）。真正要卡的是两个方向：
+      横向数字必须左→右递增，竖向字母必须下→上递增。方向反了就是硬错。
+    keywords: [轴号位置, 编号顺序, 从左至右, 从下至上]
+    severity_hint: warning
+    machine:
+      checkable: full
+      horizontal: arabic_left_to_right
+      vertical: latin_bottom_to_top
+
+  - clause_id: GBT50001-2017/8.0.4
+    chapter: "8 定位轴线"
+    verbatim: |
+      定位轴线编号宜采用大写拉丁字母，不得使用 I、O、Z 三个字母，以免与阿拉伯数字 1、0、2 混淆。
+      拉丁字母作为轴线编号不够用时，可增用双字母或单字母加数字注脚，如 AA、BA……YA 或 A1、B1……Y1。
+      附加定位轴线的编号，应以分数形式表示。
+    interpret: |
+      "不得"是强制禁止。I/O/Z 与 1/0/2 形近，图纸缩小后必然误读，所以直接禁。
+      跳号是正确做法（A B C D E F G H J，跳过 I），不是错误。
+      这条也是检查一张图"是不是内行画的"最快的手段。
+    keywords: [轴线编号, I, O, Z, 禁用字母, 跳号]
+    severity_hint: error
+    machine:
+      checkable: full
+      forbidden_letters: [I, O, Z]
+      allowed_pattern: "^([A-HJ-NP-Y]|AA|BA|CA|DA|EA|FA|GA|HA|JA|[A-HJ-NP-Y][0-9]+)$"
+
+  - clause_id: GBT50001-2017/8.0.6
+    chapter: "8 定位轴线"
+    verbatim: |
+      附加定位轴线的编号，应以分数形式表示，并应符合下列规定：
+      1 两根轴线间的附加轴线，应以分母表示前一轴线的编号，分子表示附加轴线的编号，
+        编号宜用阿拉伯数字顺序编写；
+      2 1 号轴线或 A 号轴线之前的附加轴线的分母，应以 01 或 0A 表示。
+    interpret: |
+      关键是"分数形式"——上下叠排的真分数（分子 1，分母 D），不是斜杠文本 "1/D"。
+      实务中大量图纸图省事写成 "1/D" 纯文本，AutoCAD 里也确实难排版，
+      但严格按本条这是不合规的，属于"能看懂但不标准"。
+      位置也要对：1/D 应当排在 D 轴与它前一根轴线之间（通常就在 D 轴外侧一点点）。
+    keywords: [附加轴线, 分数形式, 1/D, 0A, 01]
+    severity_hint: warning
+    machine:
+      checkable: full
+      form: stacked_fraction
+      slash_text_is_nonconforming: true
+      prefix_denominator: ["01", "0A"]
+      pattern: "^(?P<num>\\d+)/(?P<den>\\d+|[A-Z])$"
+
+  - clause_id: GBT50001-2017/13.0.1
+    chapter: "13 计算机辅助制图文件图层"
+    verbatim: |
+      图层命名应符合下列规定：
+      1 图层宜按用途、设计阶段、专业属性、使用对象等方式组织，并应具有明确的逻辑关系；
+      2 图层名称宜使用汉字、英文字母、数字和连字符"-"的组合，但汉字与英文字母不宜混用；
+      3 同一工程中，图层名称的命名格式应统一，并应保持不变，不应同时使用汉字和英文字母命名。
+    interpret: |
+      第 2 款用"不宜"（推荐性），第 3 款用"不应"（强制性）——所以"同一张图里既有
+      中文图层又有英文图层"是硬违规，而"单个图层名里汉字+字母混排"是软建议。
+      实务上中文图层名（外墙/内墙/门窗）是国内设计院主流，完全合法；只要整张图统一用中文即可。
+      例外：AutoCAD 自建的 0、Defpoints 是系统图层，不算违规。
+    keywords: [图层命名, 汉英混用, 中文图层, 命名格式, 统一]
+    severity_hint: error
+    machine:
+      checkable: full
+      must_not_mix_scripts_within_drawing: true
+      system_layers_exempt: ["0", "Defpoints"]
+      separator: "-"
+
+  - clause_id: GBT50001-2017/13.0.2
+    chapter: "13 计算机辅助制图文件图层"
+    verbatim: |
+      图层名称宜采用分级形式，分级形式宜为 2 个～5 个数据字段，
+      第一级为专业代码，第二级为主代码，第三、第四级为次代码，第五级为状态代码，
+      相邻字段之间宜用连字符"-"分隔。
+      汉字图层名称的每个字段宜为 1 个～3 个汉字。
+      图层名称宜选用本标准附录 B 规定的常用图层名称。
+    interpret: |
+      全条都是"宜"，所以单字段中文图层名（"外墙"）只是"未采用推荐格式"，不是错误。
+      附录 B（表 B.0.1~B.0.9）给了通用/总图/建筑/结构/给排水/暖通/动力/电气/电讯的
+      常用图层名，是自动检查"图层名是否规范"的权威词表——但本库还没录入该表。
+    keywords: [图层分级, 专业代码, 字段, 附录B, 常用图层名]
+    severity_hint: warning
+    machine:
+      checkable: partial
+      fields_min: 2
+      fields_max: 5
+      separator: "-"
+      cjk_field_chars: [1, 3]
+      appendix_b_loaded: false
+
+  - clause_id: GB55038-2025/preface
+    standard: GB55038-2025
+    standard_name: 住宅项目规范
+    chapter: "公告与废止清单"
+    verbatim: |
+      现批准《住宅项目规范》为国家标准，编号为 GB 55038-2025，自 2025 年 5 月 1 日起实施。
+      本规范为强制性工程建设规范，全部条文必须严格执行。
+      现行工程建设标准中有关规定与本规范不一致的，以本规范的规定为准。
+    interpret: |
+      这不是一条"制图"规则，而是一条"时效性"元数据，但它恰恰是最该被机器检查的东西：
+      图纸说明里如果还写着"依据 GB 50096-2011 第 6.3.2 条"，那这条依据已经作废了。
+      本卡的作用是给 Rule 提供 superseded/abolished 判定的锚点。
+    keywords: [住宅项目规范, 强制性, 废止, GB50096, 时效性]
+    severity_hint: error
+    status: effective
+    effective_from: "2025-05-01"
+    supersedes:
+      - standard: GB 50368-2005
+        scope: 全部
+      - standard: GB 50096-2011
+        scope: 部分条文
+        clauses:
+          - 5.1.1
+          - 5.3.3
+          - 5.4.4
+          - 5.5.2
+          - 5.5.3
+          - 5.6.2
+          - 5.6.3
+          - 5.8.1
+          - 6.1.1
+          - 6.1.2
+          - 6.1.3
+          - 6.2.1
+          - 6.2.2
+          - 6.2.3
+          - 6.2.4
+          - 6.2.5
+          - 6.3.1
+          - 6.3.2
+          - 6.3.5
+          - 6.4.1
+          - 6.4.7
+          - 6.5.2
+          - 6.6.1
+          - 6.6.3
+          - 6.7.1
+          - 6.9.1
+          - 6.9.6
+          - 6.10.1
+          - 6.10.4
+          - 7.1.1
+          - 7.1.3
+          - 7.2.1
+          - 7.3.2
+          - 8.1.1
+          - 8.1.2
+          - 8.1.3
+          - 8.1.4
+          - 8.1.7
+          - 8.2.1
+          - 8.2.2
+          - 8.2.6
+          - 8.2.10
+          - 8.2.11
+          - 8.2.12
+          - 8.3.3
+          - 8.3.6
+          - 8.4.1
+          - 8.4.3
+          - 8.4.4
+          - 8.5.3
+          - 8.7.3
+          - 8.7.4
+          - 8.7.5
+          - 8.7.9
+    source_url: https://www.gov.cn/zhengce/zhengceku/202504/content_7016620.htm
+    source_note: 住房城乡建设部公告 2025 年第 39 号，成文日期 2025-03-13。

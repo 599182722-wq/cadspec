@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# 本地图纸与临时产物，不入库
+*.dxf
+*.dwg
+out/
+!tests/fixtures/*.dxf
+
+# 国标源文件。只放来源链接，不放 PDF —— 版本会更新，且第三方转载件带有水印
+.cache/
+*.pdf

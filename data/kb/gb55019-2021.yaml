@@ -1,0 +1,1081 @@
+standard: GB55019-2021
+standard_name: 建筑与市政工程无障碍通用规范
+source_url: https://gf.cabr-fire.com/list-1490.htm
+source_note: ''
+clauses:
+  - clause_id: GB55019-2021/1.0.1
+    chapter: 1 总则
+    verbatim: 为保障无障碍环境建设中无障碍设施的建设和运行维护，依据国家相关法律法规，制定本规范。
+    interpret: 立法目的：保障无障碍环境建设中设施的建设和运行维护。注意范围含「运行维护」，不只是设计阶段。
+    severity_hint: info
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/1.0.2
+    chapter: 1 总则
+    verbatim: 新建、改建和扩建的市政和建筑工程的无障碍设施的建设和运行维护必须执行本规范。
+    interpret: 新建、改建、扩建的市政和建筑工程的无障碍设施，建设和运行维护必须执行本规范。强制性条文，「必须」覆盖全生命周期。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/1.0.3
+    chapter: 1 总则
+    verbatim: 无障碍设施的建设和运行维护应遵循下列基本原则：1 满足残疾人、老年人等有需求的人使用，消除他们在社会生活上的障碍；2 保证安全性和便利性，兼顾经济、绿色和美观；3 保证系统性及无障碍设施之间有效衔接；4 从设计、选型、验收、调试和运行维护等环节保障无障碍通行设施、无障碍服务设施和无障碍信息交流设施的安全、功能和性能；5 无障碍信息交流设施的建设与信息技术发展水平相适应；6 各级文物保护单位根据需要在不破坏文物的前提下进行无障碍设施建设。
+    interpret: 六条基本原则：满足残疾人老年人等需求、安全便利与经济绿色美观兼顾、保证系统性及设施衔接、全环节保障三类设施（通行/服务/信息交流）、信息设施与技术水平相适应、文保单位不破坏文物前提下建设。第 3 条「系统性」是全规范的核心——无障碍不是加个坡道，是一条完整的链。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/1.0.4
+    chapter: 1 总则
+    verbatim: 工程建设所采用的技术方法和措施是否符合本规范要求，由相关责任主体判定。其中，创新性的技术方法和措施，应进行论证并符合本规范中有关性能的要求。2.1 一般规定2.2 无障碍通道2.3 轮椅坡道2.4 无障碍出入口2.5 门2.6 无障碍电梯和升降平台2.7 楼梯台阶2.8 扶手2.9 无障碍机动车停车位和上/落客区
+    interpret: 合规由责任主体判定，创新措施要论证并满足性能要求。与 GB 55031 的 1.0.4 同构。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.1.1
+    chapter: 2.1 一般规定
+    verbatim: 城市开敞空间、建筑场地、建筑内部及其之间应提供连贯的无障碍通行流线。
+    interpret: 城市开敞空间、建筑场地、建筑内部及其之间应提供连贯的无障碍通行流线。「之间」二字是关键：从人行道到建筑内部要一路通，断一环就整条流线失效。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.1.2
+    chapter: 2.1 一般规定
+    verbatim: 无障碍通行流线上的标识物、垃圾桶、座椅、灯柱、隔离墩、地灯和地面布线（线槽）等设施均不应妨碍行动障碍者的独立通行。固定在无障碍通道、轮椅坡道、楼梯的墙或柱面上的物体，突出部分大于100mm且底面距地面高度小于2.00m时，其底面距地面高度不应大于600mm，且应保证有效通行净宽。
+    interpret: 无障碍流线上的标识、垃圾桶、座椅、灯柱、隔离墩、地灯、地面线槽不得妨碍独立通行；固定在墙柱上的物体，突出部分大于 100mm 且底面距地小于 2.00m 时，底面距地不应大于 600mm，且要保证有效通行净宽。这条是给「低位」留空间：空调外机、消防箱、邮筒要么贴墙做薄，要么降到 600mm 以下让人和轮椅能靠近。
+    severity_hint: error
+    keywords:
+      - 100mm
+      - 2.00m
+      - 600mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.1.3
+    chapter: 2.1 一般规定
+    verbatim: 无障碍通行流线在临近地形险要地段处应设置安全防护设施，必要时应同时设置安全警示线。
+    interpret: 无障碍流线临近地形险要处要设安全防护，必要时加安全警示线。场地高差大的项目要在总图上标。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.1.4
+    chapter: 2.1 一般规定
+    verbatim: 无障碍通行设施的地面应坚固、平整、防滑、不积水。
+    interpret: 无障碍设施的地面要坚固、平整、防滑、不积水。四个要求对应四种常见失效：沉降开裂、高差、雨天打滑、积水泡脚。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.2.1
+    chapter: 2.2 无障碍通道
+    verbatim: 无障碍通道上有地面高差时，应设置轮椅坡道或缘石坡道。
+    interpret: 无障碍通道上有地面高差时要设轮椅坡道或缘石坡道。高差不能用台阶凑，必须是坡。
+    severity_hint: error
+    keywords:
+      - 无障碍通道
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.2.2
+    chapter: 2.2 无障碍通道
+    verbatim: 无障碍通道的通行净宽不应小于1.20m，人员密集的公共场所的通行净宽不应小于1.80m。
+    interpret: 无障碍通道通行净宽不小于 1.20m；人员密集的公共场所不小于 1.80m。1.20m 是轮椅加两侧余量，1.80m 是两辆轮椅能交错。
+    severity_hint: error
+    keywords:
+      - 无障碍通道
+      - 1.20m
+      - 1.80m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.2.3
+    chapter: 2.2 无障碍通道
+    verbatim: 无障碍通道上的门洞口应满足轮椅通行，各类检票口、结算口等应设轮椅通道，通行净宽不应小于900mm。
+    interpret: 通道上的门洞口要满足轮椅通行；检票口、结算口要设轮椅通道，净宽不小于 900mm。900mm 是轮椅通过的最小宽度，与 2.5.4 的门净宽一致。
+    severity_hint: error
+    keywords:
+      - 无障碍通道
+      - 900mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.2.4
+    chapter: 2.2 无障碍通道
+    verbatim: 无障碍通道上有井盖、箅子时，井盖、箅子孔洞的宽度或直径不应大于13mm，条状孔洞应垂直于通行方向。
+    interpret: 通道上的井盖、箅子孔洞宽度或直径不大于 13mm，条状孔洞垂直于通行方向。13mm 是避免轮椅小轮和盲杖卡入的尺寸，条状孔洞方向错了照样卡。
+    severity_hint: error
+    keywords:
+      - 无障碍通道
+      - 13mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.2.5
+    chapter: 2.2 无障碍通道
+    verbatim: 自动扶梯、楼梯的下部和其他室内外低矮空间可以进入时，应在净高不大于2.00m处采取安全阻挡措施。
+    interpret: 自动扶梯、楼梯下部和其他低矮空间可进入时，要在净高不大于 2.00m 处设安全阻挡。楼梯下面做储藏间、放绿植，都要拦住不让人走进去撞头。
+    severity_hint: error
+    keywords:
+      - 无障碍通道
+      - 2.00m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.3.1
+    chapter: 2.3 轮椅坡道
+    verbatim: 轮椅坡道的坡度和坡段提升高度应符合下列规定：1 横向坡度不应大于1:50，纵向坡度不应大于1:12，当条件受限且坡段起止点的高差不大于150mm时，纵向坡度不应大于1:10；2 每段坡道的提升高度不应大于750mm。
+    interpret: 轮椅坡道坡度：横坡不大于 1:50，纵坡不大于 1:12；条件受限且起止点高差不大于 150mm 时纵坡可放宽到 1:10；每段坡道提升高度不大于 750mm。1:12 是人力推轮椅的极限坡度，750mm 是每段的限高，超了必须设休息平台。
+    severity_hint: error
+    keywords:
+      - 轮椅坡道
+      - 150mm
+      - 750mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.3.2
+    chapter: 2.3 轮椅坡道
+    verbatim: 轮椅坡道的通行净宽不应小于1.20m。
+    interpret: 轮椅坡道通行净宽不小于 1.20m。与通道同宽，坡上不设扶手时量到边，设扶手时量到扶手内侧。
+    severity_hint: error
+    keywords:
+      - 轮椅坡道
+      - 1.20m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.3.3
+    chapter: 2.3 轮椅坡道
+    verbatim: 轮椅坡道的起点、终点和休息平台的通行净宽不应小于坡道的通行净宽，水平长度不应小于1.50m，门扇开启和物体不应占用此范围空间。
+    interpret: 坡道起点、终点、休息平台净宽不小于坡道净宽，水平长度不小于 1.50m，且门扇开启和物体不得占用。1.50m 是轮椅转向和停驻的空间，画坡道时两端要留出这块空白。
+    severity_hint: error
+    keywords:
+      - 轮椅坡道
+      - 1.50m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.3.4
+    chapter: 2.3 轮椅坡道
+    verbatim: 轮椅坡道的高度大于300mm且纵向坡度大于1:20时，应在两侧设置扶手，坡道与休息平台的扶手应保持连贯。
+    interpret: 坡道高度大于 300mm 且纵坡大于 1:20 时，两侧设扶手，坡道与平台扶手连贯。300mm 和 1:20 两个条件同时满足才强制，坡缓或坡短可省。
+    severity_hint: error
+    keywords:
+      - 轮椅坡道
+      - 300mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.3.5
+    chapter: 2.3 轮椅坡道
+    verbatim: 设置扶手的轮椅坡道的临空侧应采取安全阻挡措施。
+    interpret: 设扶手的坡道临空侧要设安全阻挡。扶手挡人不挡轮子，临空侧还要有挡台或栏板。
+    severity_hint: error
+    keywords:
+      - 轮椅坡道
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.4.1
+    chapter: 2.4 无障碍出入口
+    verbatim: 无障碍出入口应为下列3种出入口之一：1 地面坡度不大于1:20的平坡出入口；2 同时设置台阶和轮椅坡道的出入口；3 同时设置台阶和升降平台的出入口。
+    interpret: 无障碍出入口三选一：地面坡度不大于 1:20 的平坡出入口；台阶加坡道；台阶加升降平台。只有这三种，没有第四种做法。
+    severity_hint: error
+    keywords:
+      - 无障碍出入口
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.4.2
+    chapter: 2.4 无障碍出入口
+    verbatim: 除平坡出入口外，无障碍出入口的门前应设置平台；在门完全开启的状态下，平台的净深度不应小于1.50m；无障碍出入口的上方应设置雨篷。
+    interpret: 除平坡出入口外，门前要设平台，门全开状态下平台净深不小于 1.50m；出入口上方要设雨篷。1.50m 是轮椅在门前转身和避雨的空间，雨篷是硬要求不是可选项。
+    severity_hint: error
+    keywords:
+      - 无障碍出入口
+      - 1.50m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.4.3
+    chapter: 2.4 无障碍出入口
+    verbatim: 设置出入口闸机时，至少有一台开启后的通行净宽不应小于900mm，或者在紧邻闸机处设置供乘轮椅者通行的出入口，通行净宽不应小于900mm。
+    interpret: 设出入口闸机时，至少一台开启后净宽不小于 900mm，或在紧邻处设轮椅出入口，净宽不小于 900mm。地铁、场馆闸机是高发问题点。
+    severity_hint: error
+    keywords:
+      - 无障碍出入口
+      - 900mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.5.1
+    chapter: 2.5 门
+    verbatim: 满足无障碍要求的门应可以被清晰辨认，并应保证方便开关和安全通过。
+    interpret: 无障碍门要能被清晰辨认，方便开关和安全通过。总纲条，具体在 2.5.2~2.5.9。
+    severity_hint: error
+    keywords:
+      - 门
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.5.2
+    chapter: 2.5 门
+    verbatim: 在无障碍通道上不应使用旋转门。
+    interpret: 无障碍通道上不应使用旋转门。旋转门轮椅进不去，必须另设平开门或自动门。
+    severity_hint: error
+    keywords:
+      - 门
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.5.3
+    chapter: 2.5 门
+    verbatim: 满足无障碍要求的门不应设挡块和门槛，门口有高差时，高度不应大于15mm，并应以斜面过渡，斜面的纵向坡度不应大于1:10。
+    interpret: 无障碍门不应设挡块和门槛；门口有高差时不大于 15mm，并用斜面过渡，斜面纵坡不大于 1:10。15mm 是轮椅前轮能过的极限，超过必须做坡。
+    severity_hint: error
+    keywords:
+      - 门
+      - 15mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.5.4
+    chapter: 2.5 门
+    verbatim: 满足无障碍要求的手动门应符合下列规定：1 新建和扩建建筑的门开启后的通行净宽不应小于900mm，既有建筑改造或改建的门开启后的通行净宽不应小于800mm；2 平开门的门扇外侧和里侧均应设置扶手，扶手应保证单手握拳操作，操作部分距地面高度应为0.85m～1.00m；3 除防火门外，门开启所需的力度不应大于25N。
+    interpret: 手动门三条：新建扩建门净宽不小于 900mm，既有改造不小于 800mm；平开门内外两侧都设扶手，单手握拳可操作，距地 0.85~1.00m；除防火门外开启力不大于 25N。25N 大约是提 2.5kg 的力，防火门因自闭要求豁免。
+    severity_hint: error
+    keywords:
+      - 门
+      - 900mm
+      - 800mm
+      - 0.85m
+      - 1.00m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.5.5
+    chapter: 2.5 门
+    verbatim: 满足无障碍要求的自动门应符合下列规定：1 开启后的通行净宽不应小于1.00m；2 当设置手动启闭装置时，可操作部件的中心距地面高度应为0.85m～1.00m。
+    interpret: 自动门：开启后净宽不小于 1.00m；手动启闭装置中心距地 0.85~1.00m。自动门比手动门宽 100mm，因为要留感应和缓冲。
+    severity_hint: error
+    keywords:
+      - 门
+      - 1.00m
+      - 0.85m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.5.6
+    chapter: 2.5 门
+    verbatim: 全玻璃门应符合下列规定：1 应选用安全玻璃或采取防护措施，并应采取醒目的防撞提示措施；2 开启扇左右两侧为玻璃隔断时，门应与玻璃隔断在视觉上显著区分开，玻璃隔断并应采取醒目的防撞提示措施；3 防撞提示应横跨玻璃门或隔断，距地面高度应为0.85m～1.50m。
+    interpret: 全玻璃门三条：用安全玻璃或防护并设醒目防撞提示；开启扇两侧是玻璃隔断时，门要与隔断视觉上显著区分，隔断也设防撞提示；防撞提示横跨玻璃门或隔断，距地 0.85~1.50m。防撞条高度范围是给坐轮椅者和儿童都能看到。
+    severity_hint: error
+    keywords:
+      - 门
+      - 0.85m
+      - 1.50m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.5.7
+    chapter: 2.5 门
+    verbatim: 连续设置多道门时，两道门之间的距离除去门扇摆动的空间后的净间距不应小于1.50m。
+    interpret: 连续多道门时，两道门之间除去门扇摆动空间后的净间距不小于 1.50m。门厅双道门、风除室常见，1.50m 要扣掉门扇开启占的空间才算。
+    severity_hint: error
+    keywords:
+      - 门
+      - 1.50m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.5.8
+    chapter: 2.5 门
+    verbatim: 满足无障碍要求的安装有闭门器的门，从闭门器最大受控角度到完全关闭前10°的闭门时间不应小于3s。
+    interpret: 装闭门器的门，从最大受控角度到完全关闭前 10° 的闭门时间不小于 3s。3s 是轮椅通过的时间余量，闭门器调太快会夹人。
+    severity_hint: error
+    keywords:
+      - 门
+      - 3s
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.5.9
+    chapter: 2.5 门
+    verbatim: 满足无障碍要求的双向开启的门应在可视高度部分安装观察窗，通视部分的下沿距地面高度不应大于850mm。
+    interpret: 双向开启的门要在可视高度装观察窗，通视部分下沿距地不大于 850mm。850mm 是坐轮椅者的视线高度，窗开高了等于没开。
+    severity_hint: error
+    keywords:
+      - 门
+      - 850mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.6.1
+    chapter: 2.6 无障碍电梯和升降平台
+    verbatim: 无障碍电梯的候梯厅应符合下列规定：1 电梯门前应设直径不小于1.50m的轮椅回转空间，公共建筑的候梯厅深度不应小于1.80m；2 呼叫按钮的中心距地面高度应为0.85m～1.10m，且距内转角处侧墙距离不应小于400mm，按钮应设置盲文标志；3 呼叫按钮前应设置提示盲道；4 应设置电梯运行显示装置和抵达音响。
+    interpret: 无障碍电梯候梯厅四条：电梯门前设直径不小于 1.50m 的轮椅回转空间，公共建筑候梯厅深度不小于 1.80m；呼叫按钮中心距地 0.85~1.10m，距内转角侧墙不小于 400mm，带盲文；按钮前设提示盲道；设运行显示和抵达音响。1.80m 比 1.50m 大，是因为公建候梯人多要错身。
+    severity_hint: error
+    keywords:
+      - 无障碍电梯和升降平台
+      - 1.50m
+      - 1.80m
+      - 0.85m
+      - 1.10m
+      - 400mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.6.2
+    chapter: 2.6 无障碍电梯和升降平台
+    verbatim: 无障碍电梯的轿厢的规格应依据建筑类型和使用要求选用。满足乘轮椅者使用的最小轿厢规格，深度不应小于1.40m，宽度不应小于1.10m。同时满足乘轮椅者使用和容纳担架的轿厢，如采用宽轿厢，深度不应小于1.50m，宽度不应小于1.60m；如采用深轿厢，深度不应小于2.10m，宽度不应小于1.10m。轿厢内部设施应满足无障碍要求。
+    interpret: 无障碍电梯轿厢：最小 1.40m 深 × 1.10m 宽；要容纳担架时，宽轿厢 1.50m 深 × 1.60m 宽，或深轿厢 2.10m 深 × 1.10m 宽。住宅医疗建筑要按担架尺寸选，这是平面图上定电梯井道尺寸的依据。
+    severity_hint: error
+    keywords:
+      - 无障碍电梯和升降平台
+      - 1.40m
+      - 1.10m
+      - 1.50m
+      - 1.60m
+      - 2.10m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.6.3
+    chapter: 2.6 无障碍电梯和升降平台
+    verbatim: 无障碍电梯的电梯门应符合下列规定：1 应为水平滑动式门；2 新建和扩建建筑的电梯门开启后的通行净宽不应小于900mm，既有建筑改造或改建的电梯门开启后的通行净宽不应小于800mm；3 完全开启时间应保持不小于3s。
+    interpret: 无障碍电梯门：水平滑动式；新建扩建净宽不小于 900mm，既有改造不小于 800mm；完全开启时间不小于 3s。与 2.5.4、2.5.8 的 900/800 和 3s 一致，同一个人机尺度贯穿全规范。
+    severity_hint: error
+    keywords:
+      - 无障碍电梯和升降平台
+      - 900mm
+      - 800mm
+      - 3s
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.6.4
+    chapter: 2.6 无障碍电梯和升降平台
+    verbatim: 公共建筑内设有电梯时，至少应设置1部无障碍电梯。
+    interpret: 公共建筑内设电梯时，至少设 1 部无障碍电梯。与 GB 55031 的 5.4.2 第 2 款同义，两条互相印证。
+    severity_hint: error
+    keywords:
+      - 无障碍电梯和升降平台
+      - 1部
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.6.5
+    chapter: 2.6 无障碍电梯和升降平台
+    verbatim: 升降平台应符合下列规定：1 深度不应小于1.20m，宽度不应小于900mm，应设扶手、安全挡板和呼叫控制按钮，呼叫控制按钮的高度应符合本规范第2.6.1条的有关规定；2 应采用防止误入的安全防护措施；3 传送装置应设置可靠的安全防护装置。
+    interpret: 升降平台：深度不小于 1.20m，宽度不小于 900mm，设扶手、安全挡板、呼叫按钮（高度同 2.6.1）；防误入安全防护；传送装置要有防护装置。升降平台用在改造项目或空间不足处，尺寸比电梯轿厢小一档。
+    severity_hint: error
+    keywords:
+      - 无障碍电梯和升降平台
+      - 1.20m
+      - 900mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.7.1
+    chapter: 2.7 楼梯和台阶
+    verbatim: 视觉障碍者主要使用的楼梯和台阶应符合下列规定：1 距踏步起点和终点250mm～300mm处应设置提示盲道，提示盲道的长度应与梯段的宽度相对应；2 上行和下行的第一阶踏步应在颜色或材质上与平台有明显区别；3 不应采用无踢面和直角形突缘的踏步；4 踏步防滑条、警示条等附着物均不应突出踏面。
+    interpret: 视障者主要使用的楼梯台阶四条：距踏步起点终点 250~300mm 处设提示盲道，长度与梯段宽对应；上下行第一阶踏步在颜色或材质上与平台明显区别；不用无踢面和直角突缘的踏步；防滑条警示条不得突出踏面。250~300mm 是盲杖探到踏步前的预警距离。
+    severity_hint: error
+    keywords:
+      - 楼梯和台阶
+      - 250mm
+      - 300mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.7.2
+    chapter: 2.7 楼梯和台阶
+    verbatim: 行动障碍者和视觉障碍者主要使用的三级及三级以上的台阶和楼梯应在两侧设置扶手。
+    interpret: 行动障碍者和视障者主要使用的三级及三级以上台阶楼梯，两侧设扶手。三级是分界，一二级可不设（但一般仍建议设）。
+    severity_hint: error
+    keywords:
+      - 楼梯和台阶
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.8.1
+    chapter: 2.8 扶手
+    verbatim: 满足无障碍要求的单层扶手的高度应为850mm～900mm；设置双层扶手时，上层扶手高度应为850mm～900mm，下层扶手高度应为650mm～700mm。
+    interpret: 扶手高度：单层 850~900mm；双层时上层 850~900mm、下层 650~700mm。下层是给儿童和坐姿使用的。
+    severity_hint: error
+    keywords:
+      - 扶手
+      - 850mm
+      - 900mm
+      - 650mm
+      - 700mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.8.2
+    chapter: 2.8 扶手
+    verbatim: 行动障碍者和视觉障碍者主要使用的楼梯、台阶和轮椅坡道的扶手应在全长范围内保持连贯。
+    interpret: 楼梯、台阶、轮椅坡道的扶手要在全长范围内连贯。中间断开、转弯处断开都是违规，连贯性是扶手能起作用的前提。
+    severity_hint: error
+    keywords:
+      - 扶手
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.8.3
+    chapter: 2.8 扶手
+    verbatim: 行动障碍者和视觉障碍者主要使用的楼梯和台阶、轮椅坡道的扶手起点和终点处应水平延伸，延伸长度不应小于300mm；扶手末端应向墙面或向下延伸，延伸长度不应小于100mm。
+    interpret: 扶手起点终点要水平延伸，延伸长度不小于 300mm；扶手末端向墙面或向下延伸，不小于 100mm。300mm 是让人在踏上踏步前就能握住，100mm 是防勾衣服。
+    severity_hint: error
+    keywords:
+      - 扶手
+      - 300mm
+      - 100mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.8.4
+    chapter: 2.8 扶手
+    verbatim: 扶手应固定且安装牢固，形状和截面尺寸应易于抓握，截面的内侧边缘与墙面的净距离不应小于40mm。
+    interpret: 扶手固定牢固、形状截面易于抓握，内侧边缘与墙面净距不小于 40mm。40mm 是手指能穿过的空间，贴墙太近握不住。与 GB 55031 的 5.3.3 同一数值。
+    severity_hint: error
+    keywords:
+      - 扶手
+      - 40mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.8.5
+    chapter: 2.8 扶手
+    verbatim: 扶手应与背景有明显的颜色或亮度对比。
+    interpret: 扶手与背景有明显颜色或亮度对比。低视力者靠对比度识别扶手，深色扶手配浅色墙。
+    severity_hint: error
+    keywords:
+      - 扶手
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.9.1
+    chapter: 2.9 无障碍机动车停车位和上/落客区
+    verbatim: 应将通行方便、路线短的停车位设为无障碍机动车停车位。
+    interpret: 把通行方便、路线短的停车位设为无障碍车位。位置选择原则：靠近出入口、靠近电梯。
+    severity_hint: error
+    keywords:
+      - 无障碍机动车停车位和上/落客区
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.9.2
+    chapter: 2.9 无障碍机动车停车位和上/落客区
+    verbatim: 无障碍机动车停车位一侧，应设宽度不小于1.20m的轮椅通道。轮椅通道与其所服务的停车位不应有高差，和人行通道有高差处应设置缘石坡道，且应与无障碍通道衔接。
+    interpret: 无障碍车位一侧设宽度不小于 1.20m 的轮椅通道；通道与车位不应有高差，与人行通道有高差处设缘石坡道并与无障碍通道衔接。1.20m 是开车门后轮椅下车的空间，通道要一路接到人行道。
+    severity_hint: error
+    keywords:
+      - 无障碍机动车停车位和上/落客区
+      - 1.20m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.9.3
+    chapter: 2.9 无障碍机动车停车位和上/落客区
+    verbatim: 无障碍机动车停车位的地面坡度不应大于1:50。
+    interpret: 无障碍车位地面坡度不大于 1:50。车位不能有明显坡，否则轮椅会滑。
+    severity_hint: error
+    keywords:
+      - 无障碍机动车停车位和上/落客区
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.9.4
+    chapter: 2.9 无障碍机动车停车位和上/落客区
+    verbatim: 无障碍机动车停车位的地面应设置停车线、轮椅通道线和无障碍标志，并应设置引导标识。
+    interpret: 无障碍车位地面设停车线、轮椅通道线、无障碍标志，并设引导标识。地面标线和引导标识都要在总图上表达。
+    severity_hint: error
+    keywords:
+      - 无障碍机动车停车位和上/落客区
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.9.5
+    chapter: 2.9 无障碍机动车停车位和上/落客区
+    verbatim: 总停车数在100辆以下时应至少设置1个无障碍机动车停车位，100辆以上时应设置不少于总停车数1％的无障碍机动车停车位；城市广场、公共绿地、城市道路等场所的停车位应设置不少于总停车数2％的无障碍机动车停车位。
+    interpret: 无障碍车位数量：总停车数 100 辆以下至少 1 个；100 辆以上不少于总数 1%；城市广场、公共绿地、城市道路等场所不少于 2%。三个档位按场所类型和规模取，2% 那档要求更高。
+    severity_hint: error
+    keywords:
+      - 无障碍机动车停车位和上/落客区
+      - 1个
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.9.6
+    chapter: 2.9 无障碍机动车停车位和上/落客区
+    verbatim: 无障碍小汽（客）车上客和落客区的尺寸不应小于2.40m×7.00m，和人行通道有高差处应设置缘石坡道，且应与无障碍通道衔接。
+    interpret: 无障碍小客车上落客区尺寸不小于 2.40m×7.00m；与人行通道有高差处设缘石坡道并衔接。7.00m 长是让车停稳、开门、轮椅上下都不挤。
+    severity_hint: error
+    keywords:
+      - 无障碍机动车停车位和上/落客区
+      - 2.40m
+      - 7.00m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.10.1
+    chapter: 2.10 缘石坡道
+    verbatim: 各种路口、出入口和人行横道处，有高差时应设置缘石坡道。
+    interpret: 各种路口、出入口、人行横道处有高差时设缘石坡道。缘石坡道是无障碍流线在地面层的接点，缺一处整条线就断。
+    severity_hint: error
+    keywords:
+      - 缘石坡道
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.10.2
+    chapter: 2.10 缘石坡道
+    verbatim: 缘石坡道的坡口与车行道之间应无高差。
+    interpret: 缘石坡道坡口与车行道之间应无高差。坡口留 20mm 台阶，轮椅就上不去。
+    severity_hint: error
+    keywords:
+      - 缘石坡道
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.10.3
+    chapter: 2.10 缘石坡道
+    verbatim: 缘石坡道距坡道下口路缘石250mm～300mm处应设置提示盲道，提示盲道的长度应与缘石坡道的宽度相对应。
+    interpret: 缘石坡道距坡道下口路缘石 250~300mm 处设提示盲道，长度与坡道宽度对应。提示盲道告诉视障者前面是路口。
+    severity_hint: error
+    keywords:
+      - 缘石坡道
+      - 250mm
+      - 300mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.10.4
+    chapter: 2.10 缘石坡道
+    verbatim: 缘石坡道的坡度应符合下列规定：1 全宽式单面坡缘石坡道的坡度不应大于1:20；2 其他形式缘石坡道的正面和侧面的坡度不应大于1:12。
+    interpret: 缘石坡道坡度：全宽式单面坡不大于 1:20；其他形式正面和侧面不大于 1:12。全宽式坡长做在整个人行道宽度上，可以更缓。
+    severity_hint: error
+    keywords:
+      - 缘石坡道
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.10.5
+    chapter: 2.10 缘石坡道
+    verbatim: 缘石坡道的宽度应符合下列规定：1 全宽式单面坡缘石坡道的坡道宽度应与人行道宽度相同；2 三面坡缘石坡道的正面坡道宽度不应小于1.20m；3 其他形式的缘石坡道的坡口宽度均不应小于1.50m。
+    interpret: 缘石坡道宽度：全宽式与人行道同宽；三面坡正面不小于 1.20m；其他形式坡口宽度不小于 1.50m。
+    severity_hint: error
+    keywords:
+      - 缘石坡道
+      - 1.20m
+      - 1.50m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.10.6
+    chapter: 2.10 缘石坡道
+    verbatim: 缘石坡道顶端处应留有过渡空间，过渡空间的宽度不应小于900mm。
+    interpret: 缘石坡道顶端要留过渡空间，宽度不小于 900mm。坡顶上去要有个平台再进人行道，否则轮椅会卡在坡顶。
+    severity_hint: error
+    keywords:
+      - 缘石坡道
+      - 900mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.10.7
+    chapter: 2.10 缘石坡道
+    verbatim: 缘石坡道上下坡处不应设置雨水箅子。设置阻车桩时，阻车桩的净间距不应小于900mm。
+    interpret: 缘石坡道上下坡处不设雨水箅子；设阻车桩时净间距不小于 900mm。坡道上放箅子会卡轮，阻车桩间距小于 900mm 轮椅过不去。
+    severity_hint: error
+    keywords:
+      - 缘石坡道
+      - 900mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.11.1
+    chapter: 2.11 盲道
+    verbatim: 盲道的铺设应保证视觉障碍者安全行走和辨别方向。
+    interpret: 盲道铺设要保证视障者安全行走和辨别方向。总纲条。
+    severity_hint: error
+    keywords:
+      - 盲道
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.11.2
+    chapter: 2.11 盲道
+    verbatim: 盲道铺设应避开障碍物，任何设施不得占用盲道。
+    interpret: 盲道要避开障碍物，任何设施不得占用盲道。井盖、灯杆、报亭压盲道是最高发的违规。
+    severity_hint: error
+    keywords:
+      - 盲道
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.11.3
+    chapter: 2.11 盲道
+    verbatim: 需要安全警示和提示处应设置提示盲道，其长度应与需安全警示和提示的范围相对应。行进盲道的起点、终点、转弯处，应设置提示盲道，其宽度不应小于300mm，且不应小于行进盲道的宽度。
+    interpret: 需要安全警示提示处设提示盲道，长度与警示范围对应；行进盲道的起点、终点、转弯处设提示盲道，宽度不小于 300mm 且不小于行进盲道宽度。300mm 是提示盲道的最小宽度。
+    severity_hint: error
+    keywords:
+      - 盲道
+      - 300mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/2.11.4
+    chapter: 2.11 盲道
+    verbatim: 盲道应与相邻人行道铺面的颜色或材质形成差异。
+    interpret: 盲道应与相邻人行道铺面的颜色或材质形成差异。视障者靠触感，低视力者靠颜色，两者都要有差异。
+    severity_hint: error
+    keywords:
+      - 盲道
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.1
+    chapter: 3.1 一般规定
+    verbatim: 通往无障碍服务设施的通道应为无障碍通道。
+    interpret: 通往无障碍服务设施的通道必须是无障碍通道。服务设施做对了但去不了，等于没做——这条是「系统性」在平面上的落点。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.2
+    chapter: 3.1 一般规定
+    verbatim: 具有内部使用空间的无障碍服务设施的入口和室内空间应方便乘轮椅者进入和使用，内部应设轮椅回转空间，轮椅需要通行的区域通行净宽不应小于900mm。
+    interpret: 有内部空间的无障碍服务设施，入口和室内要方便轮椅进入使用，内部设轮椅回转空间，通行净宽不小于 900mm。900mm 是单侧通行的最小宽度，回转空间另算。
+    severity_hint: error
+    keywords:
+      - 900mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.3
+    chapter: 3.1 一般规定
+    verbatim: 具有内部使用空间的无障碍服务设施的门在紧急情况下应能从外面打开。
+    interpret: 有内部空间的无障碍服务设施门，紧急情况下要能从外面打开。无障碍厕所、更衣室的门闩必须支持外部紧急开启，否则里面的人摔倒后救不出来。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.4
+    chapter: 3.1 一般规定
+    verbatim: 具有内部使用空间的无障碍服务设施应设置易于识别和使用的救助呼叫装置。
+    interpret: 有内部空间的无障碍服务设施要设易于识别和使用的救助呼叫装置。呼叫装置的位置要能同时覆盖坐姿和倒地状态。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.5
+    chapter: 3.1 一般规定
+    verbatim: 无障碍服务设施的地面应坚固、平整、防滑、不积水。
+    interpret: 无障碍服务设施地面要坚固、平整、防滑、不积水。与 2.1.4 同义，范围扩到设施内部。
+    severity_hint: error
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.6
+    chapter: 3.1 一般规定
+    verbatim: 无障碍服务设施内供使用者操控的照明、设备、设施的开关和调控面板应易于识别，距地面高度应为0.85m～1.10m。
+    interpret: 设施内供使用者操控的照明、设备开关和调控面板要易于识别，距地 0.85~1.10m。这个高度区间是坐姿伸手可达的范围。
+    severity_hint: error
+    keywords:
+      - 0.85m
+      - 1.10m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.7
+    chapter: 3.1 一般规定
+    verbatim: 无障碍服务设施内安装的部件应符合下列规定：1 应安装牢固；2 安全抓杆直径应为30mm～40mm，内侧与墙面的净距离不应小于40mm；3 低位挂衣钩、低位毛巾架、低位搁物架距地面高度不应大于1.20m。
+    interpret: 设施内部件三条：安装牢固；安全抓杆直径 30~40mm，内侧与墙面净距不小于 40mm；低位挂衣钩、毛巾架、搁物架距地不大于 1.20m。30~40mm 是手掌能握住的管径，40mm 净距是手指能穿过的空隙。
+    severity_hint: error
+    keywords:
+      - 30mm
+      - 40mm
+      - 1.20m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.8
+    chapter: 3.1 一般规定
+    verbatim: 无障碍坐便器应符合下列规定：1 无障碍坐便器两侧应设置安全抓杆，轮椅接近坐便器一侧应设置可垂直或水平90°旋转的水平抓杆，另一侧应设置L形抓杆；2 轮椅接近无障碍坐便器一侧设置的可垂直或水平90°旋转的水平安全抓杆距坐便器的上沿高度应为250mm～350mm，长度不应小于700mm；3 无障碍坐便器另一侧设置的L形安全抓杆，其水平部分距坐便器的上沿高度应为250mm～350mm，水平部分长度不应小于700mm；其竖向部分应设置在坐便器前端150mm～250mm，竖向部分顶部距地面高度应为1.40m～1.60m；4 坐便器水箱控制装置应位于易于触及的位置，应可自动操作或单手操作；5 取纸器应设在坐便器的侧前方；6 在坐便器附近应设置救助呼叫装置，并应满足坐在坐便器上和跌倒在地面的人均能够使用。
+    interpret: 无障碍坐便器六条：两侧设抓杆，轮椅接近侧设可垂直或水平 90° 旋转的水平抓杆，另一侧设 L 形抓杆；旋转抓杆距坐便器上沿 250~350mm、长度不小于 700mm；L 形抓杆水平部分距上沿 250~350mm、长度不小于 700mm，竖向部分设在坐便器前端 150~250mm、顶部距地 1.40~1.60m；水箱控制装置要易触及、可自动或单手操作；取纸器设在侧前方；附近设救助呼叫装置，坐姿和倒地都能用。这套尺寸是轮椅者从侧面转移上坐便器的完整动作链，缺一环就起不来。
+    severity_hint: error
+    keywords:
+      - 250mm
+      - 350mm
+      - 700mm
+      - 150mm
+      - 1.40m
+      - 1.60m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.9
+    chapter: 3.1 一般规定
+    verbatim: 无障碍小便器应符合下列规定：1 小便器下口距地面高度不应大于400mm；2 应在小便器两侧设置长度为550mm的水平安全抓杆，距地面高度应为900mm；应在小便器上部设置支撑安全抓杆，距地面高度应为1.20m。
+    interpret: 无障碍小便器：下口距地不大于 400mm；两侧设长 550mm 的水平抓杆，距地 900mm；上部设支撑抓杆，距地 1.20m。400mm 是小便器下沿要低于轮椅脚踏的位置。
+    severity_hint: error
+    keywords:
+      - 400mm
+      - 550mm
+      - 900mm
+      - 1.20m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.10
+    chapter: 3.1 一般规定
+    verbatim: 无障碍洗手盆应符合下列规定：1 台面距地面高度不应大于800mm，水嘴中心距侧墙不应小于550mm，其下部应留出不小于宽750mm、高650mm、距地面高度250mm范围内进深不小于450mm、其他部分进深不小于250mm的容膝容脚空间；2 应在洗手盆上方安装镜子，镜子反光面的底端距地面的高度不应大于1.00m；3 出水龙头应采用杠杆式水龙头或感应式自动出水方式。
+    interpret: 无障碍洗手盆三条：台面距地不大于 800mm，水嘴中心距侧墙不小于 550mm，下部留容膝容脚空间（宽 750mm、高 650mm，距地 250mm 范围内进深不小于 450mm，其余不小于 250mm）；上方装镜子，镜面底端距地不大于 1.00m；出水龙头用杠杆式或感应式。容膝空间是轮椅能推进去的前提，台盆柜堵死就废了。
+    severity_hint: error
+    keywords:
+      - 800mm
+      - 550mm
+      - 750mm
+      - 650mm
+      - 250mm
+      - 450mm
+      - 1.00m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.11
+    chapter: 3.1 一般规定
+    verbatim: 无障碍淋浴间应符合下列规定：1 内部空间应方便乘轮椅者进出和使用；2 淋浴间前应设便于乘轮椅者通行和转动的净空间；3 淋浴间坐台应安装牢固，高度应为400mm～450mm，深度应为400mm～500mm，宽度应为500mm～550mm；4 应设置L形安全抓杆，其水平部分距地面高度应为700mm～750mm，长度不应小于700mm，其垂直部分应设置在淋浴间坐台前端，顶部距地面高度应为1.40m～1.60m；5 控制淋浴的开关距地面高度不应大于1.00m；应设置一个手持的喷头，其支架高度距地面高度不应大于1.20m，淋浴软管长度不应小于1.50m。
+    interpret: 无障碍淋浴间五条：内部方便轮椅进出；淋浴间前设通行转动净空间；坐台牢固，高 400~450mm、深 400~500mm、宽 500~550mm；设 L 形抓杆，水平部分距地 700~750mm、长度不小于 700mm，竖向部分设在坐台前端、顶部距地 1.40~1.60m；控制开关距地不大于 1.00m，手持喷头支架距地不大于 1.20m，软管不小于 1.50m。坐台三个尺寸是坐着洗澡的稳定面，L 形抓杆是起身的支点。
+    severity_hint: error
+    keywords:
+      - 400mm
+      - 450mm
+      - 500mm
+      - 550mm
+      - 700mm
+      - 750mm
+      - 1.40m
+      - 1.60m
+      - 1.00m
+      - 1.20m
+      - 1.50m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.12
+    chapter: 3.1 一般规定
+    verbatim: 无障碍盆浴间应符合下列规定：1 浴盆侧面应设不小于1500mm×800mm的净空间，和浴盆平行的一边的长度不应小于1.50m；2 浴盆距地面高度不应大于450mm；在浴盆一端设置方便进入和使用的坐台；3 应沿浴盆长边和洗浴坐台旁设置安全抓杆。
+    interpret: 无障碍盆浴间三条：浴盆侧面设不小于 1500mm×800mm 的净空间，平行浴盆一边长度不小于 1.50m；浴盆距地不大于 450mm，一端设坐台；沿浴盆长边和坐台旁设安全抓杆。1.50m 是轮椅侧向转移的长度。
+    severity_hint: error
+    keywords:
+      - 1500mm
+      - 800mm
+      - 1.50m
+      - 450mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.1.13
+    chapter: 3.1 一般规定
+    verbatim: 无障碍厨房应符合下列规定：1 厨房设施和电器应方便乘轮椅者靠近和使用；2 操作台面距地面高度应为700mm～850mm，其下部应留出不小于宽750mm、高650mm、距地面高度250mm范围内进深不小于450mm、其他部分进深不小于250mm的容膝容脚空间；3 水槽应与工作台底部的操作空间隔开。
+    interpret: 无障碍厨房三条：设施电器方便轮椅靠近；操作台面距地 700~850mm，下部留容膝容脚空间（同 3.1.10 尺寸）；水槽与工作台底部操作空间隔开。台面 700~850mm 比普通厨房低，是为了坐姿操作。
+    severity_hint: error
+    keywords:
+      - 700mm
+      - 850mm
+      - 750mm
+      - 650mm
+      - 250mm
+      - 450mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.2.1
+    chapter: 3.2 公共卫生间（厕所）和无障碍厕所
+    verbatim: 满足无障碍要求的公共卫生间（厕所）应符合下列规定：1 女卫生间（厕所）应设置无障碍厕位和无障碍洗手盆，男卫生间（厕所）应设置无障碍厕位、无障碍小便器和无障碍洗手盆；2 内部应留有直径不小于1.50m的轮椅回转空间。
+    interpret: 公共卫生间无障碍要求：女厕设无障碍厕位和无障碍洗手盆；男厕设无障碍厕位、无障碍小便器和无障碍洗手盆；内部留直径不小于 1.50m 的轮椅回转空间。1.50m 回转直径贯穿全规范，是无障碍空间的基准模数。
+    severity_hint: error
+    keywords:
+      - 公共卫生间（厕所）和无障碍厕所
+      - 1.50m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.2.2
+    chapter: 3.2 公共卫生间（厕所）和无障碍厕所
+    verbatim: 无障碍厕位应符合下列规定：1 应方便乘轮椅者到达和进出，尺寸不应小于1.80m×1.50m；2 如采用向内开启的平开门，应在开启后厕位内留有直径不小于1.50m的轮椅回转空间，并应采用门外可紧急开启的门闩；3 应设置无障碍坐便器。
+    interpret: 无障碍厕位三条：方便到达进出，尺寸不小于 1.80m×1.50m；内开平开门时开启后要留直径 1.50m 回转空间，并用门外可紧急开启的门闩；设无障碍坐便器。1.80×1.50 是轮椅侧向转移加回转的最小组合。
+    severity_hint: error
+    keywords:
+      - 公共卫生间（厕所）和无障碍厕所
+      - 1.80m
+      - 1.50m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.2.3
+    chapter: 3.2 公共卫生间（厕所）和无障碍厕所
+    verbatim: 无障碍厕所应符合下列规定：1 位置应靠近公共卫生间（厕所），面积不应小于4.00m²，内部应留有直径不小于1.50m的轮椅回转空间；2 内部应设置无障碍坐便器、无障碍洗手盆、多功能台、低位挂衣钩和救助呼叫装置；3 应设置水平滑动式门或向外开启的平开门。
+    interpret: 无障碍厕所三条：靠近公共卫生间，面积不小于 4.00m²，内部留直径 1.50m 回转空间；设无障碍坐便器、洗手盆、多功能台、低位挂衣钩、救助呼叫装置；用水平滑动门或外开平开门。4.00m² 是独立无障碍厕所的最小面积。
+    severity_hint: error
+    keywords:
+      - 公共卫生间（厕所）和无障碍厕所
+      - 4.00m²
+      - 1.50m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.2.4
+    chapter: 3.2 公共卫生间（厕所）和无障碍厕所
+    verbatim: 公共建筑中的男、女公共卫生间（厕所），每层应至少分别设置1个满足无障碍要求的公共卫生间（厕所），或在男、女公共卫生间（厕所）附近至少设置1个独立的无障碍厕所。
+    interpret: 公共建筑每层男厕、女厕应各至少 1 个满足无障碍要求，或在附近至少设 1 个独立无障碍厕所。每层都要有，不能只在首层设一个。
+    severity_hint: error
+    keywords:
+      - 公共卫生间（厕所）和无障碍厕所
+      - 1个
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.3.1
+    chapter: 3.3 公共浴室和更衣室
+    verbatim: 满足无障碍要求的公共浴室应符合下列规定：1 应设置至少1个无障碍淋浴间或盆浴间和1个无障碍洗手盆；2 无障碍淋浴间的短边宽度不应小于1.50m，淋浴间前应设一块不小于1500mm×800mm的净空间，和淋浴间入口平行的一边的长度不应小于1.50m；3 淋浴间入口应采用活动门帘。
+    interpret: 公共浴室三条：至少 1 个无障碍淋浴间或盆浴间、1 个无障碍洗手盆；淋浴间短边不小于 1.50m，门前设不小于 1500mm×800mm 净空间，平行入口一边不小于 1.50m；入口用活动门帘。门帘而不是门，是为了轮椅进出和紧急救助。
+    severity_hint: error
+    keywords:
+      - 公共浴室和更衣室
+      - 1个
+      - 1.50m
+      - 1500mm
+      - 800mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.3.2
+    chapter: 3.3 公共浴室和更衣室
+    verbatim: 无障碍更衣室应符合下列规定：1 乘轮椅者使用的储物柜前应设直径不小于1.50m的轮椅回转空间；2 乘轮椅者使用的座椅的高度应为400mm～450mm。
+    interpret: 无障碍更衣室：储物柜前设直径不小于 1.50m 回转空间；座椅高 400~450mm。座椅高度与淋浴坐台一致，是坐姿转移的标准高度。
+    severity_hint: error
+    keywords:
+      - 公共浴室和更衣室
+      - 1.50m
+      - 400mm
+      - 450mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.4.1
+    chapter: 3.4 无障碍客房和无障碍住房、居室
+    verbatim: 无障碍客房和无障碍住房、居室应设于底层或无障碍电梯可达的楼层，应设在便于到达、疏散和进出的位置，并应与无障碍通道连接。
+    interpret: 无障碍客房和无障碍住房应设在底层或无障碍电梯可达的楼层，位置便于到达、疏散、进出，并与无障碍通道连接。高层建筑里无障碍客房不能安排在电梯到不了的楼层。
+    severity_hint: error
+    keywords:
+      - 无障碍客房和无障碍住房、居室
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.4.2
+    chapter: 3.4 无障碍客房和无障碍住房、居室
+    verbatim: 人员活动空间应保证轮椅进出，内部应设轮椅回转空间。
+    interpret: 人员活动空间要保证轮椅进出，内部设轮椅回转空间。客房内的床间、通道都要按轮椅尺度排布。
+    severity_hint: error
+    keywords:
+      - 无障碍客房和无障碍住房、居室
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.4.3
+    chapter: 3.4 无障碍客房和无障碍住房、居室
+    verbatim: 主要人员活动空间应设置救助呼叫装置。
+    interpret: 主要人员活动空间要设救助呼叫装置。卧室、卫生间是重点位置。
+    severity_hint: error
+    keywords:
+      - 无障碍客房和无障碍住房、居室
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.4.4
+    chapter: 3.4 无障碍客房和无障碍住房、居室
+    verbatim: 无障碍客房和无障碍住房、居室内应设置无障碍卫生间，并符合下列规定：1 应保证轮椅进出，内部应设轮椅回转空间；2 内部应设置无障碍坐便器、无障碍洗手盆、无障碍淋浴间或盆浴间、低位挂衣钩、低位毛巾架、低位搁物架和救助呼叫装置；3 应设置水平滑动式门或向外开启的平开门。
+    interpret: 无障碍客房和无障碍住房要设无障碍卫生间：保证轮椅进出并留回转空间；设无障碍坐便器、洗手盆、淋浴间或盆浴间、低位挂衣钩毛巾架搁物架、救助呼叫装置；用水平滑动门或外开平开门。
+    severity_hint: error
+    keywords:
+      - 无障碍客房和无障碍住房、居室
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.4.5
+    chapter: 3.4 无障碍客房和无障碍住房、居室
+    verbatim: 无障碍客房和无障碍住房设置厨房时应为无障碍厨房。
+    interpret: 无障碍客房和无障碍住房设厨房时应为无障碍厨房。要么不做厨房，做了就必须按 3.1.13 的尺寸。
+    severity_hint: error
+    keywords:
+      - 无障碍客房和无障碍住房、居室
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.4.6
+    chapter: 3.4 无障碍客房和无障碍住房、居室
+    verbatim: 乘轮椅者上下床用的床侧通道宽度不应小于1.20m。
+    interpret: 乘轮椅者上下床用的床侧通道宽度不小于 1.20m。1.20m 是轮椅侧向贴近床沿转移的宽度，普通客房 0.90m 不够。
+    severity_hint: error
+    keywords:
+      - 无障碍客房和无障碍住房、居室
+      - 1.20m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.4.7
+    chapter: 3.4 无障碍客房和无障碍住房、居室
+    verbatim: 窗户可开启扇的执手或启闭开关距地面高度应为0.85m～1.00m，手动开关窗户操作所需的力度不应大于25N。
+    interpret: 窗户可开启扇执手或启闭开关距地 0.85~1.00m，手动开关窗户的力不大于 25N。与 2.5.4 的门开启力同值，坐姿操作的统一标准。
+    severity_hint: error
+    keywords:
+      - 无障碍客房和无障碍住房、居室
+      - 0.85m
+      - 1.00m
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.4.8
+    chapter: 3.4 无障碍客房和无障碍住房、居室
+    verbatim: 无障碍住房的门禁和无障碍客房的门铃应同时满足听觉障碍者、视觉障碍者和言语障碍者使用。
+    interpret: 无障碍住房门禁和无障碍客房门铃要同时满足听觉、视觉、言语障碍者使用。即要有灯光提示也要有声音提示，且操作不需要说话。
+    severity_hint: error
+    keywords:
+      - 无障碍客房和无障碍住房、居室
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.5.1
+    chapter: 3.5 轮椅席位
+    verbatim: 轮椅席位的观看视线不应受到遮挡，并不应遮挡他人视线。
+    interpret: 轮椅席位观看视线不受遮挡，也不遮挡他人。席位要放在视线能直达舞台或屏幕的位置，不能塞在最后一排角落。
+    severity_hint: error
+    keywords:
+      - 轮椅席位
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.5.2
+    chapter: 3.5 轮椅席位
+    verbatim: 轮椅席位应设置在便于疏散的位置，并不应设置在公共通道范围内。
+    interpret: 轮椅席位设在便于疏散的位置，不设在公共通道范围内。既要能快速离开，又不能挡路。
+    severity_hint: error
+    keywords:
+      - 轮椅席位
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.5.3
+    chapter: 3.5 轮椅席位
+    verbatim: 轮椅席位区应通过无障碍通行设施与疏散出口、公共服务、卫生间、讲台等必要的功能空间和设施连接。
+    interpret: 轮椅席位区要通过无障碍通行设施与疏散出口、公共服务、卫生间、讲台等连接。席位周边一圈都要通。
+    severity_hint: error
+    keywords:
+      - 轮椅席位
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.5.4
+    chapter: 3.5 轮椅席位
+    verbatim: 轮椅席位应符合下列规定：1 每个轮椅席位的净尺寸深度不应小于1.30m，宽度不应小于800mm；2 观众席为100座及以下时应至少设置1个轮椅席位；101座～400座时应至少设置2个轮椅席位；400座以上时，每增加200个座位应至少增设1个轮椅席位；3 在轮椅席位旁或邻近的座席处应设置1:1的陪护席位；4 轮椅席位的地面坡度不应大于1:50。
+    interpret: 轮椅席位四条：每个净尺寸深不小于 1.30m、宽不小于 800mm；100 座及以下至少 1 个，101~400 座至少 2 个，400 座以上每增 200 座加 1 个；席位旁或邻近座席设 1:1 陪护席位；地面坡度不大于 1:50。1.30m 深是轮椅停放加前方通行。
+    severity_hint: error
+    keywords:
+      - 轮椅席位
+      - 1.30m
+      - 800mm
+      - 1个
+      - 2个
+      - 200个
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.6.1
+    chapter: 3.6 低位服务设施
+    verbatim: 为公众提供服务的各类服务台均应设置低位服务设施，包括问询台、接待处、业务台、收银台、借阅台、行李托运台等。
+    interpret: 为公众提供服务的各类服务台都要设低位服务设施，包括问询台、接待处、业务台、收银台、借阅台、行李托运台。清单式列举，凡是公众要伸手办事的台面都算。
+    severity_hint: error
+    keywords:
+      - 低位服务设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.6.2
+    chapter: 3.6 低位服务设施
+    verbatim: 当设置饮水机、自动取款机、自动售票机、自动贩卖机等时，每个区域的不同类型设施应至少有1台为低位服务设施。
+    interpret: 饮水机、ATM、自动售票机、自动贩卖机等，每个区域的不同类型设施至少 1 台为低位。不是每台都低位，但每种至少一台。
+    severity_hint: error
+    keywords:
+      - 低位服务设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.6.3
+    chapter: 3.6 低位服务设施
+    verbatim: 低位服务设施前应留有轮椅回转空间。
+    interpret: 低位服务设施前要留轮椅回转空间。台面做低了，前面站不下轮椅还是没用。
+    severity_hint: error
+    keywords:
+      - 低位服务设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/3.6.4
+    chapter: 3.6 低位服务设施
+    verbatim: 低位服务设施的上表面距地面高度应为700mm～850mm，台面的下部应留出不小于宽750mm、高650mm、距地面高度250mm范围内进深不小于450mm、其他部分进深不小于250mm的容膝容脚空间。
+    interpret: 低位服务设施上表面距地 700~850mm，台面下部留容膝容脚空间（宽 750mm、高 650mm，距地 250mm 范围内进深不小于 450mm，其余不小于 250mm）。与 3.1.10 洗手盆、3.1.13 厨房台面同一套人体尺度。
+    severity_hint: error
+    keywords:
+      - 低位服务设施
+      - 700mm
+      - 850mm
+      - 750mm
+      - 650mm
+      - 250mm
+      - 450mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/4.0.1
+    chapter: 4 无障碍信息交流设施
+    verbatim: 无障碍标识应纳入室内外环境的标识系统，应连续并清楚地指明无障碍设施的位置和方向。
+    interpret: 无障碍标识要纳入室内外标识系统，连续清楚地指明无障碍设施的位置和方向。「连续」意味着沿途要有指引，只在设施上挂个牌不够。
+    severity_hint: error
+    keywords:
+      - 无障碍信息交流设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/4.0.2
+    chapter: 4 无障碍信息交流设施
+    verbatim: 无障碍标志的安装位置和高度应保证从站立和座位的视觉角度都能够看见，并且不应被其他任何物品遮挡。
+    interpret: 无障碍标志的安装位置和高度要保证站立和坐姿视角都能看见，且不被遮挡。坐姿视线高度约 1.10~1.20m，标志不能全挂到 2m 以上。
+    severity_hint: error
+    keywords:
+      - 无障碍信息交流设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/4.0.3
+    chapter: 4 无障碍信息交流设施
+    verbatim: 无障碍设施处均应设置无障碍标识。
+    interpret: 无障碍设施处均应设置无障碍标识。凡是做了无障碍设施的都要挂牌，没牌的设施使用者找不到。
+    severity_hint: error
+    keywords:
+      - 无障碍信息交流设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/4.0.4
+    chapter: 4 无障碍信息交流设施
+    verbatim: 对需要安全警示处，应同时提供包括视觉标识和听觉标识的警示标识。
+    interpret: 需要安全警示处要同时提供视觉和听觉警示标识。单一通道对某类障碍者无效。
+    severity_hint: error
+    keywords:
+      - 无障碍信息交流设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/4.0.5
+    chapter: 4 无障碍信息交流设施
+    verbatim: 语音信息密集的公共场所和以声音为主要传播手段的公共服务应提供文字信息的辅助服务。
+    interpret: 语音信息密集的公共场所和以声音为主要传播手段的公共服务要提供文字辅助。广播通知必须配文字屏。
+    severity_hint: error
+    keywords:
+      - 无障碍信息交流设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/4.0.6
+    chapter: 4 无障碍信息交流设施
+    verbatim: 在以视觉信息为主的公共服务中，应提供听觉信息的辅助服务。
+    interpret: 以视觉信息为主的公共服务要提供听觉辅助。大屏、指示牌要配语音或提示音。
+    severity_hint: error
+    keywords:
+      - 无障碍信息交流设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/4.0.7
+    chapter: 4 无障碍信息交流设施
+    verbatim: 公共场所中的网络通信设备部件应符合下列规定：1 低位电话、低位个人自助终端和低位台面计算机应符合本规范第3.6.4条的有关规定；2 每1组公用电话中，应至少设1部低位电话，听筒线长度不应小于600mm；应至少设1部电话具备免提对话、音量放大和助听耦合的功能；3 每1组个人自助终端中，应至少设1部低位个人自助终端；应至少设1部具备视觉和听觉两种信息传递方式的个人自助终端；4 供公众使用的计算机中，应至少提供1台低位台面计算机；应至少提供1台具备读屏软件和支持屏幕放大功能的计算机；应至少提供1台具备语音输入功能的计算机；支持可替换键盘的计算机不应少于20％。
+    interpret: 公共网络通信设备四类要求：低位电话、自助终端、台面计算机符合 3.6.4；每组公用电话至少 1 部低位（听筒线不小于 600mm）、至少 1 部支持免提/音量放大/助听耦合；每组自助终端至少 1 部低位、至少 1 部视听双通道；公用计算机至少 1 台低位、1 台读屏加放大、1 台语音输入、可替换键盘不少于 20%。这是一组配置清单，设计说明里要能对应到设备表。
+    severity_hint: error
+    keywords:
+      - 无障碍信息交流设施
+      - 1部
+      - 600mm
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/4.0.8
+    chapter: 4 无障碍信息交流设施
+    verbatim: 过街音响提示装置应符合下列规定：1 应保证视觉障碍者的通行安全，且有利于辨别方向；2 应在主要商业街、步行街和视觉障碍者集中区域周边道路的人行横道设置；3 应结合人行横道信号灯统一设置；4 应避免产生噪声污染；5 应设置开关功能。
+    interpret: 过街音响提示装置五条：保证视障者通行安全并利于辨别方向；设在主要商业街、步行街和视障者集中区域周边的人行横道；与人行横道信号灯统一设置；避免噪声污染；设开关功能。夜间扰民是常见投诉，所以要有开关。
+    severity_hint: error
+    keywords:
+      - 无障碍信息交流设施
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/5.0.1
+    chapter: 5 无障碍设施施工验收和维护
+    verbatim: 工程竣工验收时，建设单位应组织对无障碍设施的系统性进行检查验收。
+    interpret: 竣工验收时建设单位要组织对无障碍设施的系统性检查。验收查的是「系统性」而不是逐个设施合格——单件合格但连不起来仍不算通过。
+    severity_hint: error
+    keywords:
+      - 无障碍设施施工验收和维护
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/5.0.2
+    chapter: 5 无障碍设施施工验收和维护
+    verbatim: 工程验收时，应对无障碍设施的地面防滑性能、扶手和安全抓杆的受力性能进行验收。
+    interpret: 验收时要对地面防滑性能、扶手和安全抓杆的受力性能进行验收。防滑和承力是唯二被点名实测的物理性能。
+    severity_hint: error
+    keywords:
+      - 无障碍设施施工验收和维护
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/5.0.3
+    chapter: 5 无障碍设施施工验收和维护
+    verbatim: 对竣工验收交付使用的无障碍设施应明确维护责任人。
+    interpret: 竣工验收交付使用的无障碍设施要明确维护责任人。
+    severity_hint: error
+    keywords:
+      - 无障碍设施施工验收和维护
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/5.0.4
+    chapter: 5 无障碍设施施工验收和维护
+    verbatim: 维护责任人应定期对无障碍设施进行检查，确保其符合安全性、功能性和系统性要求。
+    interpret: 维护责任人要定期检查，确保安全性、功能性、系统性符合要求。
+    severity_hint: error
+    keywords:
+      - 无障碍设施施工验收和维护
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/5.0.5
+    chapter: 5 无障碍设施施工验收和维护
+    verbatim: 对安全性、功能性或系统性缺损的无障碍设施，维护责任人应及时进行维护，保证其正常使用。
+    interpret: 对安全性、功能性或系统性缺损的设施要及时维护。设施坏了一直不修是现实中最常见的问题，规范把它写成责任。
+    severity_hint: error
+    keywords:
+      - 无障碍设施施工验收和维护
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm
+  - clause_id: GB55019-2021/5.0.6
+    chapter: 5 无障碍设施施工验收和维护
+    verbatim: 涉及人身安全的无障碍设施，因突发性事件引起功能缺损或因雨雪等原因造成防滑性能下降，维护责任人应采取应急维护措施。
+    interpret: 涉及人身安全的无障碍设施，因突发事件功能缺损或因雨雪防滑性能下降时，要采取应急维护措施。雪后坡道撒融雪剂、铺防滑垫属于此项。
+    severity_hint: error
+    keywords:
+      - 无障碍设施施工验收和维护
+    status: effective
+    source_url: https://gf.cabr-fire.com/list-1490.htm

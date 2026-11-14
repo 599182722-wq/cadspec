@@ -1,0 +1,302 @@
+{
+  "file": "D:\\dsh\\cad\\6-2.dxf",
+  "dxfversion": "AC1032",
+  "insunits": 0,
+  "scale": 100,
+  "paper_mm": [
+    50000.0,
+    32000.0
+  ],
+  "entity_counts": {
+    "ACAD_PROXY_ENTITY": 24,
+    "INSERT": 24,
+    "LWPOLYLINE": 22248,
+    "LINE": 641,
+    "CIRCLE": 26,
+    "ARC": 239,
+    "DIMENSION": 71,
+    "SOLID": 216,
+    "SPLINE": 8,
+    "HATCH": 1
+  },
+  "dim_count": 71,
+  "geometry_level": "strict",
+  "geometry_note": "未识别到房间：墙线可能不是 MLINE，或图层名不是「外墙」「内墙」。此档的尺寸类条文未参与判定。",
+  "completeness": {
+    "items": [
+      {
+        "key": "room_label",
+        "label": "房间名称",
+        "ok": false,
+        "detail": "没有识别到任何房间",
+        "unlocks": "房间尺度类规则（卧室/厨房/卫生间面积、短边、门宽分档）"
+      },
+      {
+        "key": "opening_kind",
+        "label": "门窗类型",
+        "ok": true,
+        "detail": "门 0 处、窗 0 处、未区分 0 处",
+        "unlocks": "门宽分档（户门 0.90 / 卧室门 0.80 / 厨卫门 0.70）"
+      },
+      {
+        "key": "stairs",
+        "label": "楼梯",
+        "ok": null,
+        "detail": "没有名为「楼梯」的图层，无从判断",
+        "unlocks": "楼梯踏步、梯段净宽"
+      },
+      {
+        "key": "dimensions",
+        "label": "尺寸标注",
+        "ok": true,
+        "detail": "DIMENSION 实体 71 个",
+        "unlocks": "三道尺寸（总尺寸/轴线间/门窗洞口）"
+      },
+      {
+        "key": "scale",
+        "label": "比例标注",
+        "ok": false,
+        "detail": "图上没有比例标注",
+        "unlocks": "比例一致性校验"
+      },
+      {
+        "key": "orientation",
+        "label": "剖切符号与指北针",
+        "ok": false,
+        "detail": "无剖切符号图层；无指北针/风玫瑰",
+        "unlocks": "SJD-2016 4.3.4-13"
+      },
+      {
+        "key": "levels",
+        "label": "标高",
+        "ok": false,
+        "detail": "0 处标高文字",
+        "unlocks": "SJD-2016 4.3.4-12"
+      }
+    ],
+    "ok": 2,
+    "applicable": 6
+  },
+  "rooms": [],
+  "openings": [],
+  "findings": [
+    {
+      "rule_id": "R-LAYER-001",
+      "severity": "error",
+      "cite": "GBT50001-2017/13.0.1",
+      "message": "2 个图层名单内汉字与字母混排。§13.0.1 第 2 款用\"不宜\"，属推荐性，不判错，但会导致按名称检索/批量选择失效。",
+      "handle": null,
+      "location": null,
+      "expected": "单层名只用汉字、字母、数字、连字符中的一类字符体系",
+      "actual": [
+        "PDF_家具外线",
+        "PDF_家具内线"
+      ],
+      "sample": [
+        "PDF_家具外线",
+        "PDF_家具内线"
+      ],
+      "count": 2
+    },
+    {
+      "rule_id": "R-LAYER-001",
+      "severity": "error",
+      "cite": "GBT50001-2017/13.0.1",
+      "message": "同一张图内汉字图层 4 个、字母图层 96 个并存。§13.0.1 第 3 款用\"不应\"，属强制：同一工程不应同时使用汉字和字母两种命名格式。",
+      "handle": null,
+      "location": null,
+      "expected": "整张图统一为中文命名或统一为英文命名",
+      "actual": {
+        "中文图层": [
+          "配景",
+          "装饰",
+          "墙",
+          "标注"
+        ],
+        "英文图层": [
+          "ASHADE",
+          "DOTE",
+          "BALCONY",
+          "COLUMN",
+          "WINDOW",
+          "DOOR_FIRE"
+        ]
+      },
+      "sample": [
+        "配景",
+        "装饰",
+        "墙",
+        "标注",
+        "ASHADE",
+        "DOTE",
+        "BALCONY",
+        "COLUMN"
+      ],
+      "count": 100
+    },
+    {
+      "rule_id": "R-LAYER-002",
+      "severity": "warning",
+      "cite": "GBT50001-2017/13.0.2",
+      "message": "100 个图层名是单字段（如\"外墙\"），未采用 §13.0.2 推荐的\"专业代码-主代码-次代码\"分级格式。该条全为\"宜\"，不算错误，但不利于跨专业协同与程序化筛选。",
+      "handle": null,
+      "location": null,
+      "expected": ">= 2 个字段，用 \"-\" 分隔",
+      "actual": [
+        "ASHADE",
+        "DOTE",
+        "BALCONY",
+        "COLUMN",
+        "WINDOW",
+        "DOOR_FIRE",
+        "AXIS",
+        "GROUND",
+        "RMAP",
+        "REDLINE"
+      ],
+      "sample": [
+        "ASHADE",
+        "DOTE",
+        "BALCONY",
+        "COLUMN",
+        "WINDOW",
+        "DOOR_FIRE",
+        "AXIS",
+        "GROUND"
+      ],
+      "count": 100
+    },
+    {
+      "rule_id": "R-LW-001",
+      "severity": "warning",
+      "cite": "GBT50001-2017/4.0.1",
+      "message": "109/109 个图层的线宽都是 DEFAULT（未设置）。§4.0.1 条文说明强调\"图线线宽均指打印成品图纸的线宽\"，即图层里应直接填 0.5/0.7/1.0/1.4 这类打印线宽。留 DEFAULT 意味着线宽完全由打印样式表(CTB)决定，换打印机或换 CTB 后图纸外观不可复现。若本项目确实用 CTB 统一控制，可忽略本条。",
+      "handle": null,
+      "location": null,
+      "expected": "按 b 值（0.5/0.7/1.0/1.4mm）给各图层设置显式打印线宽",
+      "actual": "109 个图层 lineweight=-3",
+      "sample": [
+        "ASHADE",
+        "DOTE",
+        "BALCONY",
+        "COLUMN",
+        "WINDOW",
+        "DOOR_FIRE",
+        "AXIS",
+        "GROUND"
+      ],
+      "count": 109
+    },
+    {
+      "rule_id": "R-DIM-002",
+      "severity": "warning",
+      "cite": "SJD-2016/4.3.4-20",
+      "message": "没有找到比例标注（形如 1:100）。《深度规定》4.3.4-20 要求注明图纸名称、比例；字高、线宽、轴号圆直径是否合规全部以出图比例为基准，比例缺失时只能依赖命令行传入的 --scale 假设值。若比例写在布局视口、标题栏属性块或外部参照中，本规则会误报。",
+      "handle": null,
+      "location": null,
+      "expected": "图面出现 1:100 之类的比例标注",
+      "actual": "未检出比例文字",
+      "sample": [],
+      "count": 1
+    },
+    {
+      "rule_id": "R-LAYER-003",
+      "severity": "warning",
+      "cite": "GBT50001-2017/13.0.1",
+      "message": "86 个图层已定义但没有任何实体：ASHADE(色7)、DOTE(色1)、BALCONY(色6)、DOOR_FIRE(色4)、AXIS(色3)、GROUND(色2)、RMAP(色252)、REDLINE(色1)、REDL-CTRL(色6)、SITE-BOTL(色31)、ROAD(色2)、ROAD_DOTE(色1)、TREE(色74)、LSCP-ROAD(色83)、PKNG-TSRP(色83)、PKNG-SIGN(色7)、CURTWALL(色4)、WALL-MOVE(色6)、WALL-PARAPET(色6)、SLAB(色4)、SURFACE(色6)、ROOF(色4)、PUB_STRM(色4)、STAIR(色2)、EVTR(色2)、LVTRY(色6)、LATRINE(色6)、RAIL(色163)、HANDRAIL(色3)、SPACE(色7)、SPACE_HOUSE(色5)、SPACE_ALL(色1)、SPACE_SHARE(色2)、SPACE_HOLE(色3)、SPACE_BALCONY(色6)、SPACE_HATCH(色8)、FIRE(色1)、FIRE_HATCH(色8)、EVAC_PATH(色1)、CAMERA(色6)、AXIS_TEXT(色7)、DIM_COOR(色3)、DIM_IDEN(色3)、DIM_LEAD(色3)、DIM_MODI(色6)、PUB_TEXT(色7)、DIM_COOR_GRID(色7)、PUB_WINDW(色7)、PUB_HATCH(色8)、PUB_TITLE(色4)、WINDOW_TEXT(色7)、DOOR_FIRE_TEXT(色7)、S_WALL(色9)、S_WINDOW(色4)、S_BLOCK(色7)、S_STAIR(色9)、E_FLOOR(色4)、E_LINE(色7)、E_WINDOW(色4)、E_BLOCK(色7)、E_STAIR(色2)、E_STRM(色7)、TG_SUNBUILD(色41)、TG_SUNVIS(色6)、TG_SUNTESTE(色7)、S_SURFACE(色6)、WALL_SHARE(色130)、2(色4)、6(色4)、8(色8)、TEMP(色7)、LAYER3(色3)、LAYER1(色1)、DETAIL(色6)、LAYER7(色2)、LAYER5(色5)、10(色7)、LAYER6(色4)、F(色2)、_TCH_MASK(色7)、3T_BAR(色7)、3T_GLASS(色5)、3T_WOOD(色21)、_TCH_KEY(色7)、PDF_LAYER3(色7)、PDF_DIM_ELEV(色250)。可能是模板残留、改图后忘了清理，也可能是这张图还没画到那一步。《房屋建筑制图统一标准》13.0.1 要求图层按用途组织、命名保持统一；空图层会让接手的人和 AI 误判这张图还有哪些内容。本规则只统计模型空间，图层若只用在布局或外部参照里会误报。",
+      "handle": null,
+      "location": null,
+      "expected": "每个已定义的图层都承载实体",
+      "actual": "86 个空图层",
+      "sample": [
+        "ASHADE",
+        "DOTE",
+        "BALCONY",
+        "DOOR_FIRE",
+        "AXIS",
+        "GROUND",
+        "RMAP",
+        "REDLINE",
+        "REDL-CTRL",
+        "SITE-BOTL",
+        "ROAD",
+        "ROAD_DOTE",
+        "TREE",
+        "LSCP-ROAD",
+        "PKNG-TSRP",
+        "PKNG-SIGN",
+        "CURTWALL",
+        "WALL-MOVE",
+        "WALL-PARAPET",
+        "SLAB",
+        "SURFACE",
+        "ROOF",
+        "PUB_STRM",
+        "STAIR",
+        "EVTR",
+        "LVTRY",
+        "LATRINE",
+        "RAIL",
+        "HANDRAIL",
+        "SPACE",
+        "SPACE_HOUSE",
+        "SPACE_ALL",
+        "SPACE_SHARE",
+        "SPACE_HOLE",
+        "SPACE_BALCONY",
+        "SPACE_HATCH",
+        "FIRE",
+        "FIRE_HATCH",
+        "EVAC_PATH",
+        "CAMERA",
+        "AXIS_TEXT",
+        "DIM_COOR",
+        "DIM_IDEN",
+        "DIM_LEAD",
+        "DIM_MODI",
+        "PUB_TEXT",
+        "DIM_COOR_GRID",
+        "PUB_WINDW",
+        "PUB_HATCH",
+        "PUB_TITLE",
+        "WINDOW_TEXT",
+        "DOOR_FIRE_TEXT",
+        "S_WALL",
+        "S_WINDOW",
+        "S_BLOCK",
+        "S_STAIR",
+        "E_FLOOR",
+        "E_LINE",
+        "E_WINDOW",
+        "E_BLOCK",
+        "E_STAIR",
+        "E_STRM",
+        "TG_SUNBUILD",
+        "TG_SUNVIS",
+        "TG_SUNTESTE",
+        "S_SURFACE",
+        "WALL_SHARE",
+        "2",
+        "6",
+        "8",
+        "TEMP",
+        "LAYER3",
+        "LAYER1",
+        "DETAIL",
+        "LAYER7",
+        "LAYER5",
+        "10",
+        "LAYER6",
+        "F",
+        "_TCH_MASK",
+        "3T_BAR",
+        "3T_GLASS",
+        "3T_WOOD",
+        "_TCH_KEY",
+        "PDF_LAYER3",
+        "PDF_DIM_ELEV"
+      ],
+      "count": 86
+    }
+  ]
+}

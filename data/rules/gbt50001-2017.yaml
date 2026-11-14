@@ -1,0 +1,134 @@
+# 可执行规则
+#
+# 设计约束：
+#   - 每条规则的 cite 必须指向 data/kb 里真实存在的 clause_id；没有依据的规则写 cite: null
+#     并在 note 里写明"待补依据"，不允许编造条号。
+#   - severity 不直接抄 severity_hint：同一条文在不同置信度下可以给不同级别
+#     （例如轴号圆圈直径，只有确定了出图比例才敢给 warning，否则只能给 info）。
+#   - check 是 src/cadspec/rules.py 里注册的函数名；params 原样传给它。
+
+version: 1
+
+rules:
+  - rule_id: R-LAYER-001
+    title: 图层命名不得汉英混用
+    severity: error
+    check: layer_script_mixing
+    params:
+      system_layers: ["0", "Defpoints"]
+    cite: GBT50001-2017/13.0.1
+    rationale: >-
+      §13.0.1 第 3 款用"不应"，是强制性。同一张图里既有中文图层又有英文图层，
+      说明图是从别的模板拼过来的，图层体系已失控。
+    note: 单个图层名内部汉字+字母混排（如"外墙WALL"）按第 2 款只是"不宜"，降为 warning。
+
+  - rule_id: R-LAYER-002
+    title: 图层命名未采用分级格式
+    severity: warning
+    check: layer_naming_scheme
+    params:
+      min_fields: 2
+      separator: "-"
+    cite: GBT50001-2017/13.0.2
+    rationale: >-
+      全条为"宜"，所以单字段图层名（外墙/内墙）不算错误，只是没采用推荐的
+      "专业代码-主代码-次代码"分级。给 warning 是为了提示规范化方向，不是判错。
+
+  - rule_id: R-LW-001
+    title: 图层线宽未设置（全部 DEFAULT）
+    severity: warning
+    check: layer_lineweight_unset
+    params:
+      max_unset_ratio: 0.8
+    cite: GBT50001-2017/4.0.1
+    rationale: >-
+      §4.0.1 的条文说明明确"图线线宽均指打印成品图纸的线宽"，而 lineweight=-3(DEFAULT)
+      意味着线宽完全交给打印样式表(CTB)决定。这在只有一张图时可能正常，
+      但换打印机/换 CTB 就会变，不可复现。降为 warning 是因为 CTB 派在国内是合法工作流。
+
+  - rule_id: R-AXIS-001
+    title: 轴号圆圈直径不在 8~10mm
+    severity: warning
+    check: axis_circle_diameter
+    params:
+      min_mm: 8.0
+      max_mm: 10.0
+      tolerance_mm: 0.5
+    cite: GBT50001-2017/8.0.2
+    rationale: >-
+      §8.0.2 是"宜为 8mm～10mm"，且尺寸指打印图纸。只有已知出图比例才能换算，
+      所以规则依赖 ctx.scale（由 --scale 传入，默认 1:100）。
+
+  - rule_id: R-AXIS-002
+    title: 轴线编号使用了禁用字母 I/O/Z
+    severity: error
+    check: axis_forbidden_letters
+    params:
+      forbidden: ["I", "O", "Z"]
+    cite: GBT50001-2017/8.0.4
+    rationale: >-
+      §8.0.4 用"不得"，是强制禁止。I/O/Z 与 1/0/2 形近，缩图后必然误读。
+
+  - rule_id: R-AXIS-003
+    title: 附加轴线写成斜杠文本而非分数形式
+    severity: warning
+    check: axis_additional_fraction
+    params: {}
+    cite: GBT50001-2017/8.0.6
+    rationale: >-
+      §8.0.6 要求"以分数形式表示"（上下叠排），斜杠文本 "1/D" 能读懂但不合形式。
+      实务中极常见，故 warning 而非 error；同时核对位置是否在分母轴线外侧。
+
+  - rule_id: R-AXIS-004
+    title: 轴线编号顺序反了或重复
+    severity: error
+    check: axis_order
+    params: {}
+    cite: GBT50001-2017/8.0.3
+    rationale: >-
+      §8.0.3 规定横向从左至右、竖向从下至上递增。方向反了会导致读图者整栋定位错位，
+      属于硬错。位置在下方/左侧只是"宜"，不在此规则内。
+
+  - rule_id: R-TEXT-001
+    title: 字母及数字打印字高小于 2.5mm
+    severity: error
+    check: text_height_printed
+    params:
+      min_mm: 2.5
+      pattern: "^[0-9A-Za-z.+\\-±%%d%%p]+$"
+    cite: GBT50001-2017/5.0.7
+    rationale: >-
+      §5.0.7 用"不应"，强制。模型字高 / 出图比例 = 打印字高，必须 ≥2.5mm。
+      仅对纯字母数字文本生效；汉字的字高按表 5.0.2 查，该表为图片未录入。
+
+  - rule_id: R-TEXT-002
+    title: 文字对象放在非文字类图层
+    severity: info
+    check: text_layer_mismatch
+    params:
+      expected_layer_keywords: ["文字", "标注", "标高", "TEXT", "DIM", "ANNO", "TAG"]
+    cite: null
+    rationale: >-
+      没有直接条号。属于工程约定：文字应位于文字/标注类图层，否则冻结或打印时会被连带关掉。
+      这也是图层体系是否清晰的间接证据。
+    note: >-
+      待补依据。可考虑挂到 §13.0.1 第 1 款"图层应具有明确的逻辑关系"，
+      但那是原则性条文，不足以支撑具体判定，故保持 cite 为空并在报告里明示"无规范依据"。
+
+  # R-DIM-001 已移入 data/rules/sjd-2016.yaml：它的依据是《深度规定》而非 GB/T 50001，
+  # 规则文件按"依据所属文件"分家，便于回溯与版本替换。
+
+  - rule_id: R-UNIT-001
+    title: 图形单位不是毫米
+    severity: error
+    check: unit_not_mm
+    params:
+      allowed: [4, 0]
+    cite: null
+    rationale: >-
+      GB/T 50001 全篇假定以 mm 为单位（线宽、字高、轴号圆直径全部以 mm 计），
+      但"$INSUNITS=4"本身是 CAD 数据约定，不是制图标准条文。
+      这是所有几何判定的前提，错了后面全部失效，所以给 error。
+    note: >-
+      无直接条号，属于本工具的前置条件检查——几何判定全部依赖 mm 单位，
+      单位错了后面所有结论都不可信。
