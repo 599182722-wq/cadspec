@@ -22,11 +22,22 @@
 
 ## 快速开始
 
-**不想装 Python？** Windows 用户可以直接下
-[Releases](https://github.com/599182722-wq/cadspec/releases) 里的 `cadspec.exe`，
-双击打开，选图纸，点「检查」。不需要联网，不需要 AutoCAD。
+**完全离线。** 条文库、检查规则、几何计算全部在本地跑——不联网、不上传图纸、
+不需要 API key。图纸是别人的成果，不该为了让程序看一眼就传到谁的服务器上。
 
-**想用命令行 / 接进自己的脚本**，在项目目录中安装：
+**想要图形界面（双击即用）**，仓库里带了一个 tkinter 写的 [gui.py](src/cadspec/gui.py)，
+自己打包成单文件 exe 只要一行：
+
+```bash
+pip install pyinstaller
+pyinstaller --noconfirm --onefile --windowed --name cadspec \
+  --add-data "data;cadspec/_data" --collect-data ezdxf src/cadspec/gui.py
+```
+
+产物在 `dist/cadspec.exe`，约 45 MB（大部分是 Python 运行时和 ezdxf 的字体数据）。
+**exe 不进仓库**——可执行文件不该有 commit 历史，而且 45 MB 会让 clone 变慢。
+
+**命令行 / 接进自己的脚本**，在项目目录中安装：
 
 ```bash
 pip install -e ".[dev]"
