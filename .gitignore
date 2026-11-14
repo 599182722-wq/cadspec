@@ -7,6 +7,9 @@ dist/
 .pytest_cache/
 .ruff_cache/
 
+# PyInstaller 生成的打包脚本，命令可重建，不入库
+*.spec
+
 # 本地图纸与临时产物，不入库
 *.dxf
 *.dwg
