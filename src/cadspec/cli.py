@@ -16,11 +16,9 @@ __version__ = "0.1.0"
 
 
 def _fix_stdout() -> None:
-    for stream in (sys.stdout, sys.stderr):
-        try:
-            stream.reconfigure(encoding="utf-8")
-        except Exception:
-            pass
+    from .console import fix_console
+
+    fix_console()
 
 
 def cmd_check(args: argparse.Namespace) -> int:

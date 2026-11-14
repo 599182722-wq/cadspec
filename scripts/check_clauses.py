@@ -18,6 +18,8 @@ from pathlib import Path
 
 import yaml
 
+from cadspec.console import fix_console
+
 ID_RE = re.compile(r"^(?P<std>[^/]+)/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(?:-\d+)?$")
 
 # 条文正文不该以这些字开头；出现就说明大概率是把上一句的续行切成了新条文
@@ -25,6 +27,7 @@ SUSPECT_STARTS = ("条", "款", "。", "，", "、", "；", "：")
 
 
 def main() -> int:
+    fix_console()
     ap = argparse.ArgumentParser(description="检查条文 YAML 的切分质量")
     ap.add_argument("yaml_path", type=Path)
     args = ap.parse_args()

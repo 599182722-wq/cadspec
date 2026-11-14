@@ -10,6 +10,8 @@ import pathlib
 import re
 import sys
 
+from cadspec.console import fix_console
+
 FENCE = "`" * 3
 SKIP_PARTS = (".venv", ".cache", "node_modules")
 LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
@@ -74,6 +76,7 @@ def check_links(path, lines, problems):
 
 
 def main():
+    fix_console()
     problems = []
     for p in sorted(pathlib.Path(".").rglob("*.md")):
         if any(part in p.parts for part in SKIP_PARTS):
